@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Rubik&display=swap');
+
+header {
+    background-image: none;
+    background-color: #232323;
+    padding-bottom: 79px;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 56px;
+    font-weight: 800;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.p-header {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+header .navbar {
+    margin-bottom: 45px;
+}
+
+.col-text-header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-header {
+    max-width: 100%;
+}
+
+.section-house{
+    padding-bottom: 124px;
+}
+
+.section-suites {
+    padding-top: 66px;
+    background-color: #F7F7F7;
+}
+
+.p-suites {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.p-medium {
+    font-weight: 500;
+}
+
+.img-equipamiento {
+    margin-right: 15px;
+}
+
+.item-equipamiento {
+    margin-bottom: 15px;
+}
+
+.img-master-suite {
+    width: 100%;
+}
+
+.row-img-master-suite {
+    margin-top: 25px;
+}
+
+.form-reserva {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 37px 29px;
+}
+
+.input-fecha,
+.select-huespedes {
+    border: none;
+    padding-left: 45px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+
+.form-group-fecha-entrada {
+    border: #DBDBDB 1px solid;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    position: relative;
+    height: 60px;
+}
+
+.form-group-fecha-salida {
+    border: #DBDBDB 1px solid;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left: none;
+    height: 60px;
+}
+
+.form-group-huespedes {
+    border: #DBDBDB 1px solid;
+    border-radius: 8px;
+    height: 60px;
+    margin-top: 17px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+    background: transparent;
+    bottom: 0;
+    color: transparent;
+    cursor: pointer;
+    height: auto;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+
+
+.label-fechas,
+.label-huespedes {
+    padding-left: 45px;
+    padding-top: 5px;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+    color: #A5A5A5;
+    font-size: 12px;
+}
+
+.img-date {
+    position: absolute;
+    bottom: 12px;
+    left: 20px;
+}
+
+#fecha-salida {
+    padding-bottom: 10px;
+}
+
+.btn-form-reservar {
+    background-color: #000000;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    height: 60px;
+}
+
+.separador-section {
+    margin-top: 40px;
+    margin-bottom: 48px;
+    border-top: 1px #D8D8D8 solid;
+    opacity: 1;
+}
+
+.rowGranSuite {
+    padding-bottom: 45px;
+}
+
+.sectionSuites {
+    padding-top: 0px;
+}
+
+.mobile767 {
+    display: none;
+}
+
+.map-google {
+    height: 401px;
+}
+
+.img-absolute-header {
+    position: absolute;
+    top: -40px;
+    right: -40px;
+}
+
+.col-right-section-house{
+    padding-top: 0px;
+}
+
+.h3-title-subsection{
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.p-menu{
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.section-gastronomia{
+    padding-bottom: 94px;
+}
+
+.img-absolute-header-excursiones{
+    top: 90px;
+}
+
+.p-bold-excursiones{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.section-senderos{
+    padding-bottom: 112px;
+}
+
+.divContactSectionElLodgeContacto{
+    font-size: 14px;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+
+.divContactSectionElLodgeContacto{
+    display: flex;
+}
+
+.imgContactSectionElLodge{
+    align-self: start;
+}
+
+.p-verMas{
+    color: #FFDAB7;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: underline;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.img-arrow-header{
+    height: 18px;
+    width: 18px;
+}
+
+.div-ver-mas{
+    display: flex;
+    align-items: center;
+}
+
+
+@media(max-width: 991px){
+    .img-absolute-header{
+        bottom: 10px;
+        right: -40px;
+        top: auto;
+    }
+
+    .section-house{
+        padding-bottom: 73px;
+    }
+
+    .section-gastronomia{
+        padding-bottom: 65px;
+    }
+
+    .col-contact-footer .imgContactSectionElLodge{
+        align-self: center;
+    }
+}
+
+
+@media(max-width: 767px) {
+
+    .desktop767 {
+        display: none;
+    }
+
+    .mobile767 {
+        display: flex;
+    }
+
+    .section-senderos{
+        padding-bottom: 63px;
+    }
+
+    .p-header-first{
+        margin-bottom: 0px;
+    }
+
+    .p-header-second{
+        margin-top: 24px;
+        margin-bottom: 0px;
+    }
+
+
+}
+
+@media(max-width: 575px) {
+
+    .map-google {
+        height: 661px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .p-suites {
+        font-size: 16px;
+    }
+
+    .p-bold-excursiones{
+        font-size: 16px;
+    }
+
+    .p-medium {
+        font-size: 18px;
+    }
+
+    .col-map-google {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .section-map {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .container-section-map {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .colWithMarginTopSectionLocation {
+        max-width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

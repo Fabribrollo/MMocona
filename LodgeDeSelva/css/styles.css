@@ -1,0 +1,1431 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Rubik&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.photo-gallery-section-title {
+    font-size: 32px;
+    font-weight: 800;
+    color: black;
+}
+
+
+.dropdown-item.nav-link {
+    color: black!important;
+}
+
+
+.dropdown-menu {
+    border: 1px solid #fff;
+    background-color: transparent;
+}
+
+
+.container-fluid,
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.pNone{
+    display: none;
+    font-weight: 400;
+}
+
+.pVisible{
+    display: block;
+    font-weight: 400!important;
+}
+
+.div-ver-mas-header{
+    display: flex;
+    align-items: center;
+}
+
+#main-verMas-1{
+    margin-bottom: 0px;
+}
+
+#ver-menos{
+    margin-bottom: 0px;
+}
+
+header {
+    background-image: url('../img/header1.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 228px;
+    position: relative;
+    overflow: hidden;
+}
+
+.social-media {
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+
+.btn-reserva-ahora {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 60px;
+    border: 2px solid #fff;
+    background-color: rgba(255, 255, 255, 0.13);
+    height: 48px;
+}
+
+header .navbar {
+    margin-bottom: 70px;
+}
+
+
+header .dropdown-item:hover {
+
+    background-color:#BEC1A4!important;
+}
+
+
+/* CSS VIDEO SECTION */
+.section-divider-text {
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.text-upon-video-container {
+    margin-top: -360px;
+}
+.video-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+video {
+    object-fit: cover;
+}
+
+.container-fluid.section-divider {
+    height: 525px;
+    position: relative;
+}
+/* CSS VIDEO SECTION */
+
+
+header .nav-link,
+header .nav-item .nav-link.active {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 20px;
+}
+
+header .nav-link:hover {
+    color: #fff;
+}
+
+.page-name {
+    text-shadow: #000 0px 3px 6px;
+    color: #BEC1A4;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.title {
+    font-size: 100px;
+    font-weight: 800;
+    color: #BEC1A4;
+    margin-bottom: 0px;
+    text-shadow: #000 0px 0px 16px;
+}
+
+.title-white {
+    color: #fff;
+    margin-bottom: 48px;
+}
+
+.header-span-opciones-hospedaje {
+    color: #fff;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.col-header-opciones-hospedaje {
+    max-height: 160px;
+}
+
+.div-opciones-hospedaje {
+    position: relative;
+    top: 35px;
+    width: 300px;
+    height: 192px;
+    background-color: #fff;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.div-opciones-hospedaje-left {
+    margin-right: 20px;
+}
+
+.img-logo-lodge {
+    height: 110px;
+}
+
+.img-logo-glamping {
+    height: 110px;
+}
+
+.sectionElLodge {
+    padding-top: 56px;
+    background-color: #F7F7F7;
+    max-height: 680px;
+}
+
+.sectionSaltos {
+    padding-top: 198px;
+    background-color: rgba(164, 188, 24, 0.1);
+    padding-bottom: 90px;
+}
+
+.sectionSuites {
+    padding-top: 80px;
+}
+
+.h6LaMision {
+    font-size: 12px;
+    color: #8FA50C;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.h3TitleSection {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.pElLodge {
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    max-width: 512px;
+}
+
+.link {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #8FA50C;
+    font-size: 14px;
+}
+
+.linkArrow {
+    text-decoration: none;
+}
+
+.colWithBorderRight {
+    border-right: 1px solid #D8D8D8;
+    padding-top: 30px;
+}
+
+.h3TitleSectionWithOutMargin {
+    margin-bottom: 0px;
+}
+
+.colRightSectionElLodge {
+    padding-left: 70px;
+    padding-top: 25px;
+}
+
+.colRightSectionElLodge .divContactSectionElLodge span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.imgContactSectionElLodge {
+    margin-right: 8px;
+}
+
+.divContactSectionElLodge {
+    margin-bottom: 20px;
+}
+
+.divLocationSectionElLodge {
+    display: flex;
+}
+
+.imgLocationSectionElLodge {
+    height: 28px;
+}
+
+.imgRelativeSide {
+    position: relative;
+    top: 50px;
+}
+
+.imgRelativeCenter {
+    position: relative;
+    top: 30px;
+}
+
+.col-right-section-saltos {
+    padding-left: 55px;
+    flex-direction: column;
+}
+
+.col-left-section-suite {
+    padding-left: 29px;
+    flex-direction: column;
+}
+
+.h3TitleSectionWithMasInfo {
+    margin-bottom: 5px;
+}
+
+.col-right-section-saltos p,
+.col-left-section-suite p {
+    font-size: 14px;
+}
+
+.colWithMarginTopSectionLocation,
+.colWithMarginTopSectionSuites {
+    margin-top: 40px;
+}
+
+.rowSectionLocation {
+    margin-top: 85px;
+}
+
+iframe {
+    margin-bottom: 66px;
+}
+
+#CDSWIDCOE.widCOE.cx_brand_refresh .widCOETitle {
+    padding-top: 15px !important;
+}
+
+#CDSWIDCOE.widCOE .widCOEReadReviews {
+    padding-top: 5px !important;
+    padding-bottom: 19px !important;
+}
+
+#CDSWIDEXC {
+    margin: 0px !important;
+}
+
+#CDSWIDCOE {
+    width: 198px !important;
+    margin: 0px !important;
+}
+
+.widGRNImg {
+    width: 283px;
+}
+
+.rowLogoTripadvisor {
+    margin-top: 87px;
+    margin-bottom: 80px;
+}
+
+footer {
+    padding-top: 25px;
+    background-color: #202020;
+}
+
+.menu-footer {
+    list-style: none;
+}
+
+.menu-footer li a,
+footer a {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.menu-footer li {
+    padding-bottom: 25px;
+}
+
+footer .divContactSectionElLodge span {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.col-contact-footer {
+    padding-left: 80px;
+}
+
+.span-languaje {
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.img-languaje {
+    margin-right: 10px;
+}
+
+.img-arrow-languaje {
+    margin-left: 10px;
+}
+
+.col-languaje-footer {
+    padding: 0px
+}
+
+.first-row-footer {
+    padding-bottom: 40px;
+    border-bottom: #DBDBDB solid 1px;
+}
+
+.second-row-footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.link-footer {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.text-absolute-img {
+    position: absolute;
+    display: flex;
+    bottom: 35px;
+    left: 35px;
+    align-items: center;
+}
+
+.text-absolute-img img {
+    height: 27px;
+    margin-left: 15px;
+}
+
+.text-absolute-img span {
+    font-size: 35px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.text-absolute-img-section-lodge {
+    bottom: 10px;
+}
+
+.text-absolute-img-center-section-lodge {
+    bottom: -10px;
+}
+
+.TA_links.V7KztdQYEW {
+    list-style: none;
+}
+
+.mobile {
+    display: none;
+}
+
+.mobile-inline {
+    display: none;
+}
+
+.img-absolute-header-index {
+    position: absolute;
+    bottom: -50px;
+    right: 0px;
+    top: auto;
+}
+
+.map-google {
+    height: 401px;
+}
+
+.last-row-sustentabilidad{
+    padding-bottom: 65px;
+}
+
+.list-sustentabilidad{
+    margin-bottom: 0px;
+}
+
+.span-languaje{
+    border: none;
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn-reserva-ahora:active,
+.btn-reserva-ahora:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn-reserva-ahora,
+.btn-form-reservar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form-reserva-ahora .form-group-huespedes {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.col-form-reserva-ahora {
+    position: relative;
+}
+
+.col-form-reserva-ahora .form-reserva-ahora {
+    padding: 30px 40px;
+    position: absolute;
+    top: -70px;
+}
+
+.sectionReservaAhora {
+    min-height: 50px;
+    background-color: #F7F7F7;
+}
+
+.form-reserva-ahora .btn-form-buscar {
+    width: 100%;
+    border-radius: 27px;
+    height: 53px;
+}
+
+.col-btn-buscar {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.btn-form-reservar:hover,
+.btn-form-reservar:active {
+    background-color: #fff;
+    color: #000;
+    border: #000 1px solid;
+}
+
+.header-index .form-reserva {
+    padding: 29px 30px;
+}
+
+.header-index .colRightSectionElLodge {
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    padding-top: 0px;
+}
+
+.header-index .form-group-fecha-entrada,
+.header-index .form-group-fecha-salida,
+.header-index .form-group-huespedes,
+.header-index .btn-form-reservar {
+    height: 53px;
+}
+
+.header-index .form-group-huespedes {
+    margin-top: 15px;
+    margin-bottom: 11px;
+}
+
+.header-index #fecha-salida {
+    padding-bottom: 2px;
+}
+
+.dropdown-menu {
+    border: transparent;
+    background-color: white!important;
+}
+
+.navbar-nav .nav-link.show {
+    color: #fff;
+}
+
+header .dropdown-item:focus,
+header .dropdown-item:hover {
+    color: #000;
+}
+
+#button-menu-header {
+    position: relative;
+    z-index: 3000;
+}
+
+.offcanvas.offcanvas-end {
+    bottom: 0;
+    height: 290px;
+    right: 0px;
+    left: -1px;
+    width: 101%;
+    top: auto;
+    transform: translateY(100%);
+}
+
+.col-btn-close-form-bottom {
+    padding-top: 13px;
+}
+
+a,
+a:visited {
+    outline: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+    outline: none;
+}
+
+.form-group-fecha-salida {
+    position: relative;
+    display: flex;
+    align-items: end;
+}
+
+.col-form-group-form-fechas {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.form-group-huespedes {
+    padding-left: 0px;
+}
+
+.form-group-fecha-salida-reserva-ahora {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.label-check-out-reserva-ahora {
+    align-self: start;
+    padding-bottom: 2px;
+}
+
+.btn-reserva-ahora-header {
+    margin-right: 20px;
+}
+
+#languages3 {
+    padding-top: 5px;
+    width: 40px;
+    position: relative;
+    z-index: 3000;
+    background-image: url('../img/arrowBottomHeader.svg');
+    background-position-y: 10px;
+    background-position-x: 22px;
+    background-size: 8px;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+#languages4{
+    padding-top: 5px;
+    position: relative;
+    z-index: 3000;
+    background-image: url('../img/arrowBottomHeader.svg');
+    background-position-y: 10px;
+    background-position-x: right;
+    background-size: 8px;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 90px;
+}
+
+#img-languaje2 {
+    padding-top: 5px;
+    margin-right: 5px;
+}
+
+#languages3 option, #languages4 option, #languages2 option, #languages1 option{
+    color: #000;
+}
+
+#header-reserva-ahora-2 {
+    display: none
+}
+
+.navbar-collapse.collapse.show,
+.navbar-collapse.collapsing {
+    z-index: 2000;
+    background-color: #202020;
+    top: 125px;
+    bottom: 0;
+    height: 100vh;
+    right: 0;
+    position: fixed;
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 28px 170px;
+    justify-content: space-between;
+}
+
+.sl-overlay-menu {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.67);
+    display: none;
+    z-index: 1035;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.social-media-menu-mobile {
+    display: flex;
+}
+
+.divImgMobileHeader {
+    display: none;
+}
+
+.last-row-sustentabilidad {
+    padding-bottom: 65px;
+}
+
+.list-sustentabilidad {
+    margin-bottom: 0px;
+}
+
+.span-languaje {
+    border: none;
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn-reserva-ahora-header{
+    position: relative;
+    z-index: 3000;
+}
+
+@media (min-width: 1300px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1200px;
+    }
+}
+
+@media (max-width: 1299px) {
+
+    header .nav-link,
+    header .nav-item .nav-link.active {
+        padding-right: 10px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 10px;
+    }
+
+}
+
+@media (max-width: 1199px) {
+
+    .navbar-brand {
+        margin-right: 30px;
+    }
+
+    #navbar-header-div {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    header .nav-link,
+    header .nav-item .nav-link.active {
+        font-size: 12px;
+        padding-right: 5px;
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 5px;
+    }
+
+    .social-media {
+        margin-right: 15px;
+    }
+
+    .btn-reserva-ahora {
+        font-size: 15px;
+    }
+
+    .col-header-nav {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .imgRelativeCenter,
+    .imgRelativeSide {
+        width: 310px;
+    }
+
+    .img-saltos {
+        width: 500px;
+        max-width: 100%;
+    }
+
+    .container,
+    .container-fluid {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+
+    .img-suite-la-selva,
+    .img-domo {
+        width: 450px;
+    }
+
+    .img-languaje {
+        margin-right: 5px;
+    }
+
+    .img-arrow-languaje {
+        margin-left: 5px;
+    }
+
+    .text-absolute-img span {
+        font-size: 28px;
+    }
+
+    #navbar-header-div {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+@media(max-width: 991px) {
+
+    #navbarSupportedContent {
+        overflow-y: auto;
+    }
+
+    .navbar-nav .nav-item {
+        padding-bottom: 20px;
+    }
+
+    #header-reserva-ahora-2 {
+        display: flex;
+    }
+
+    header .nav-link,
+    header .nav-item .nav-link.active {
+        font-size: 18px;
+    }
+
+    .btn-reserva-ahora {
+        font-size: 16px;
+    }
+
+    .imgRelativeCenter,
+    .imgRelativeSide {
+        width: 230px;
+    }
+
+    .img-logo-lodge,
+    .img-logo-glamping {
+        height: 100px;
+    }
+
+    .text-absolute-img {
+        left: 25px;
+        bottom: 20px;
+    }
+
+    .text-absolute-img span {
+        font-size: 22px;
+    }
+
+    .text-absolute-img-section-lodge {
+        bottom: -20px;
+    }
+
+    .text-absolute-img-center-section-lodge {
+        bottom: -30px;
+    }
+
+    .imgRelativeCenter {
+        top: 40px;
+    }
+
+    .text-absolute-img img {
+        height: 20px;
+        margin-left: 5px;
+    }
+
+    .img-suite-la-selva,
+    .img-domo {
+        width: 350px;
+    }
+
+    .img-saltos {
+        width: 603px;
+    }
+
+    .col-right-section-saltos {
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+
+    .col-left-section-suite {
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+
+    .div-info-section-saltos {
+        margin-bottom: 20px;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    footer .divContactSectionElLodge {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgContactSectionElLodge {
+        height: 28px;
+        width: 28px;
+        margin-bottom: 10px;
+    }
+
+    .divLocationSectionElLodge span {
+        max-width: 328px;
+    }
+
+    .col-links-footer {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+
+    .col-contact-footer {
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+
+    .divLocationSectionElLodge {
+        margin-bottom: 60px;
+    }
+
+    .mobile-inline {
+        display: inline;
+    }
+
+    .navbar-brand {
+        margin-right: auto;
+    }
+
+    .navbar-toggler {
+        color: #FFFFFF;
+        background-color: rgba(255, 255, 255, 0.49);
+        border-radius: 4px;
+        padding: 8px 9px;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url('../img/navbarToggler.png');
+        width: 18px;
+        height: 12px;
+    }
+
+    .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+        background-image: url(../img/buttonCloseMenu.svg);
+    }
+
+    .rowTripadvirsorCertificado .col-md-2 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    #CDSWIDCOE {
+        height: 139px !important;
+        width: 124px !important;
+    }
+
+    #CDSWIDCOE.widCOE .widCOEReadReviews {
+        padding-bottom: 30px !important;
+    }
+
+    #CDSWIDEXC {
+        width: 125px !important;
+        height: 139px !important;
+    }
+
+    #CDSWIDCOE.widCOE .widCOEImg {
+        width: 125px !important;
+    }
+
+    .col-form-reserva-ahora .form-reserva-ahora {
+        padding: 15px 5px;
+    }
+
+    .col-fechas-reserva-ahora {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .dropdown-menu {
+        border: none;
+    }
+
+    .header-index .row-header-title-open-menu {
+        margin-top: 169px;
+    }
+
+    #navbarSupportedContent {
+        overflow-y: auto;
+    }
+
+    .title-white {
+        margin-bottom: 30px;
+    }
+
+    #header-reserva-ahora-2 {
+        margin-bottom: 87px;
+    }
+
+    #header-reserva-ahora-2 {
+        display: flex;
+    }
+
+    .mobileForm {
+        display: block !important;
+    }
+
+    .colRightSectionElLodge {
+        padding-top: 0px;
+    }
+
+    .offcanvas .btn-close {
+        width: auto;
+        height: auto;
+        padding: 0px;
+        color: #000;
+        background: none;
+        border: none;
+        border-radius: 0;
+        opacity: 1;
+    }
+
+    .social-media-reservar-menu-mobile {
+        position: static;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .social-media-menu-mobile {
+        display: flex;
+        margin-bottom: 37px;
+    }
+
+    .open-menu {
+        position: fixed;
+        left: 0;
+        right: 0;
+        background-color: #202020;
+        top: 0;
+        padding-top: 33px;
+        padding-right: 12px;
+        padding-left: 12px;
+        z-index: 2000;
+    }
+
+    #navbar-header-div {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        width: 720px;
+    }
+
+    .header-index .row-header-title-open-menu {
+        margin-top: 169px;
+    }
+
+    .row-header-title-open-menu {
+        margin-top: 144px;
+    }
+}
+
+@media(max-width: 767px) {
+
+    .text-upon-video-container {
+        margin-top: -450px;
+    }
+
+    .row-header-title-open-menu {
+        margin-top: 144px;
+    }
+
+    .navbar-collapse.collapse.show, .navbar-collapse.collapsing {
+        top: 120px;
+    }
+
+    #navbar-header-div {
+        width: 540px;
+    }
+
+    .title {
+        font-size: 80px;
+    }
+
+    .title-white {
+        margin-bottom: 38px;
+    }
+
+    .col-btn-reserva-ahora-header {
+        margin-bottom: 80px;
+    }
+
+    .sectionElLodge {
+        padding-top: 120px;
+    }
+
+    .colWithBorderRight {
+        border-right: none;
+        padding-bottom: 30px;
+        border-bottom: 1px solid #D8D8D8;
+    }
+
+    .colRightSectionElLodge {
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+
+    .imgRelativeSide,
+    .imgRelativeCenter {
+        position: static;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .divLocationSectionElLodge {
+        margin-bottom: 35px;
+    }
+
+    .sectionElLodge {
+        max-height: 1480px;
+    }
+
+    .text-absolute-img-section-lodge,
+    .text-absolute-img-center-section-lodge {
+        left: 35px;
+        bottom: 35px;
+    }
+
+    .sectionSaltos {
+        padding-top: 210px;
+    }
+
+    .img-saltos,
+    .img-suite-la-selva,
+    .img-domo {
+        width: 100%;
+    }
+
+    .img-suite-la-selva {
+        margin-bottom: 26px;
+    }
+
+    .text-absolute-img span {
+        font-size: 35px;
+    }
+
+    .text-absolute-img img {
+        height: 27px;
+    }
+
+    .TA_certificateOfExcellence,
+    .TA_excellent {
+        display: flex;
+        justify-content: center;
+    }
+
+    #CDSWIDCOE {
+        height: auto !important;
+        width: 198px !important;
+    }
+
+    #CDSWIDCOE.widCOE .widCOEReadReviews {
+        padding-bottom: 19px !important;
+    }
+
+    #CDSWIDEXC {
+        width: 150px !important;
+        height: auto !important;
+    }
+
+    .rowLogoTripadvisor {
+        margin-top: 37px;
+        margin-bottom: 80px;
+    }
+
+    .rowTripadvirsorCertificado .col-md-2 {
+        margin-bottom: 30px;
+    }
+
+    .container-form-reservar-ahora-fechas {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 13px;
+    }
+
+    .col-fechas-reserva-ahora {
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+    }
+
+    .col-form-reserva-ahora .form-reserva-ahora {
+        padding: 15px 25px;
+    }
+
+    .col-btn-buscar {
+        margin-top: 13px;
+    }
+
+    .container-form-reservar-ahora-fechas .form-group-fecha-salida {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .container-form-reservar-ahora-fechas .form-group-fecha-salida .input-fecha-salida {
+        padding-bottom: 11px;
+    }
+
+    .col-header-opciones-hospedaje {
+        justify-content: center;
+    }
+
+    .form-reserva-ahora {
+        width: auto;
+    }
+}
+
+@media(max-width: 575px) {
+
+    .row-header-title-open-menu {
+        margin-top: 114px;
+    }
+
+    .img-absolute-header-index {
+        width: 390px;
+        bottom: -60px;
+        right: -90px;
+    }
+
+    .navbar-brand {
+        width: 94px;
+    }
+
+    .title {
+        font-size: 57px;
+    }
+
+    .btn-reserva-ahora {
+        font-size: 16px;
+    }
+
+    .div-opciones-hospedaje {
+        width: 173px;
+        height: 125px;
+    }
+
+    .img-logo-lodge,
+    .img-logo-glamping {
+        height: 64px;
+    }
+
+    .sectionElLodge {
+        padding-top: 84px;
+    }
+
+    .h3TitleSection {
+        font-size: 32px;
+    }
+
+    .pElLodge,
+    .link {
+        font-size: 16px;
+    }
+
+    .pElLodge {
+        margin-bottom: 20px;
+    }
+
+    .colWithBorderRight {
+        padding-bottom: 48px;
+    }
+
+    .imgRelativeSide,
+    .imgRelativeCenter {
+        margin-bottom: 20px;
+    }
+
+    .text-absolute-img span {
+        font-size: 28px;
+    }
+
+    .text-absolute-img img {
+        height: 28px;
+    }
+
+    .text-absolute-img {
+        bottom: 40px;
+    }
+
+    .text-absolute-img-domos {
+        bottom: 20px;
+    }
+
+    .text-absolute-img-section-lodge,
+    .text-absolute-img-center-section-lodge {
+        left: 22px;
+        bottom: 28px;
+    }
+
+    .sectionElLodge {
+        max-height: none;
+    }
+
+    .sectionSaltos {
+        padding-top: 54px;
+    }
+
+    .col-right-section-saltos p,
+    .col-left-section-suite p {
+        font-size: 16px;
+    }
+
+    footer .divContactSectionElLodge span {
+        font-size: 16px;
+    }
+
+    .sectionSaltos {
+        padding-bottom: 53px;
+    }
+
+    .sectionSuites {
+        padding-top: 54px;
+    }
+
+
+    .col-links-footer {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-bottom: 15px;
+    }
+
+    .col-links-footer .col-5,
+    .col-links-footer .col-7,
+    .col-links-footer .col-6 {
+        margin-bottom: 25px;
+    }
+
+    .menu-footer li a,
+    footer a {
+        font-size: 18px;
+    }
+
+    .screen-lg-md {
+        display: none;
+    }
+
+    .linkPoliticas,
+    .linkTerminos {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+
+    .linkPrivacidad {
+        width: 100%;
+    }
+
+    .div-second-links-footer {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .col-domos-footer {
+        padding-left: 40px;
+    }
+
+    .col-actividades-footer {
+        padding-right: 11px;
+    }
+
+    .col-contacto-footer {
+        padding-left: 31px;
+    }
+
+    .col-cancelaciones-footer {
+        margin-bottom: 40px;
+    }
+
+    .col-map-google {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .section-map {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .container-section-map {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .map-google {
+        height: 661px;
+    }
+
+    .colWithMarginTopSectionLocation {
+        max-width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .header-index .row-header-title-open-menu {
+        margin-top: 139px;
+    }
+
+    .navbar-collapse.collapse.show, .navbar-collapse.collapsing {
+        top: 94px;
+    }
+}
+
+
+
+
+@media(max-width: 430px) {
+
+    .section-divider-text {
+        font-size: 30px;
+    }
+}
