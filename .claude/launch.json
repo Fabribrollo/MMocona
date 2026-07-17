@@ -2,22 +2,10 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "LaMision",
+      "name": "AllSites",
       "runtimeExecutable": "php",
-      "runtimeArgs": ["-S", "localhost:8000", "-t", "LaMision"],
+      "runtimeArgs": ["-S", "localhost:8000", "-t", "."],
       "port": 8000
-    },
-    {
-      "name": "LodgeDeSelva",
-      "runtimeExecutable": "php",
-      "runtimeArgs": ["-S", "localhost:8001", "-t", "LodgeDeSelva"],
-      "port": 8001
-    },
-    {
-      "name": "LuxuryGlamping",
-      "runtimeExecutable": "php",
-      "runtimeArgs": ["-S", "localhost:8002", "-t", "LuxuryGlamping"],
-      "port": 8002
     }
   ]
 }

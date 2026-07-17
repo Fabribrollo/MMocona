@@ -57,7 +57,7 @@
                                         <a class="nav-link label" href="pages/excursiones.php" id="header-actividades">Actividades</a>
                                     </li>
                                     <li class='nav-item'>
-                                        <a class='nav-link' href='pages/sustentabilidad.php' id='header-sustentabilidad'>Sustentabilidad</a>
+                                        <a class="nav-link label" href="pages/promociones.php" id="header-sustentabilidad">Promociones</a>
                                     </li>
                                     <li class='nav-item'>
                                         <a class='nav-link' href='pages/galeria.php' id='header-galeria'>Galeria</a>
@@ -100,11 +100,7 @@
                     
                 </div>
             </div>
-            <div class="row">
-                <div class="col-12" style="text-align: center;">
-                    <span class="mobile-text">CONOZCA NUESTRA OPCIONES DE HOSPEDAJE</span>
-                </div>
-            </div>
+
         </div>
         <img src="img/header-flower-index.webp" class="img-header-flower-right-index">
         <img src="img/header-flower-index.webp" class="img-header-flower-left-index">
@@ -112,7 +108,7 @@
     <div class="container-fluid" style="background-color: #F7F7F7; padding-bottom: 40px;">
         <div class="container floating-buttons">
             <div class="row floating-buttons-row justify-content-center">
-                <div class="col-12 col-lg-11">
+                <div class="col-12">
                     <form action="https://www.hoteladmin.com.ar/system/responsive/plugged-apps/book-vertical.php?hotelID=334&action=query_externo" target="_blank" method="post" class="form-reserva form-reserva-ahora form-reserva-index container-fluid">
                         <div class="row justify-content-evenly align-items-center">
                             <div class="col-12 col-md-5 col-fechas-reserva-ahora">
@@ -151,24 +147,36 @@
                     </form>
                 </div>
             </div>
-            <div class="row" style="margin-top:28px">
-                <div class="col-12" style="text-align: center;">
-                    <span class="text-below-stickers">CONOZCA NUESTRA OPCIONES DE HOSPEDAJE</span>
+            <div class="row">
+                <div class="col-12 mb-2" style="text-align: center;">
+                    <span class="text-below-stickers" style="color: inherit">CONOZCA NUESTRA OPCIONES DE HOSPEDAJE</span>
                 </div>
             </div>
-            <div class="row gx-3 row-stickers-index justify-content-center" style="margin-top:16px;">
+            <div class="row gx-5 row-stickers-index justify-content-center" style="margin-top:16px;">
                 <div class="col-12 col-md-6">
+                    <a href="../LodgeDeSelva/index.php">
                     <div class="container stickers">
-                        <a href="../LodgeDeSelva/index.php">
                             <img src="img/logoLodge.svg" class="img-logo-lodge" />
-                        </a>
+                        </div>
+                    </a>
+                    <div class="stickers-text">
+                        <h6 class="h6LaMision">LODGE DE SELVA</h6>
+                        <h3 class="h3-title-subsection">Lodge La Mision Moconá</h3>
+                        <p class="p-suites">Construimos el Lodge La Misión Moconá con la intención de brindarle un lugar sin igual para su descanso. En este lugar único, estamos donde queremos estar, rodeados de la siempre apasionante y sorprendente Madre Naturaleza.</p>
+                        <p class="p-suites">Contamos con 3 tipos de habitaciones de acuerdo a las diversas necesidades; las Suite de Selva, Master Suites y la Gran Suite; todas vistas al rio Uruguay, con aire acondicionado, camas King size, calefacción y servicio de mucama.</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
+                    <a href="../LuxuryGlamping/index.php">
                     <div class="container stickers">
-                        <a href="../LuxuryGlamping/index.php">
-                            <img src="img/logoGlamping.svg" class="img-logo-glamping" />
-                        </a>
+                        <img src="img/logoGlamping.svg" class="img-logo-glamping" />
+                    </div>
+                </a>
+                    <div class="stickers-text">
+                        <h6 class="h6LaMision">LUXURY GLAMPING</h6>
+                        <h3 class="h3-title-subsection">Reserva Mocona | Solo Adultos</h3>
+                        <p class="p-suites">Reserva Moconá es un Luxury Glamping; es una fusión de ”glamour” y “camping”, ofrece experiencias inmersivas en la naturaleza con comodidades de hotel 5 estrellas, con camas premium, baño privado con hidromasajes, aire acondicionado, frigobar, calefacción y gastronomía gourmet.</p>
+                        <p class="p-suites">Se encuentra al lado del Lodge la Misión Moconá, por un convenio el mismo usa las mismas instalaciones, osea que si te alojas en los Domos podes disfrutar del mejor complejo de los Saltos del Moconá, 3 piletas, house para desayunar, almorzar, merendar y cenar.</p>
                     </div>
                 </div>
             </div>
@@ -181,48 +189,8 @@
     ?>
     <main class="container-fluid sectionElLodge sectionElLodgeIndex">
         <div class="container">
+            
             <div class="row">
-                <div class="col-12 pt-4">
-                    <h6 class="h6LaMision">LA MISIÓN MOCONÁ</h6>
-                    <h3 class="h3TitleSection h3TitleSectionWithOutMargin" id="main-el-lodge">El Lodge</h3>
-                </div>
-                <div class="col-12 col-md-6 colWithBorderRight">
-                    <p class="pElLodge" id="main-p-construimos-posada">Construimos Posada La Misión Moconá con la intención de brindarle un lugar sin
-                        igual para su
-                        descanso. En este lugar único, estamos donde queremos estar, rodeados de la siempre apasionante
-                        y sorprendente Madre Naturaleza.</p>
-                    <p class="pElLodge" id="main-p-en-orillas-rio">En las orillas del río Uruguay y cercana a los Saltos del Moconá, se encuentra
-                        la LA MISIÓN
-                        MOCONA, en un predio de 30 hectáreas, es un lugar único para vivir de la naturaleza con toda su
-                        magia y esplendor.</p>
-                        <p class="pElLodge pNone" id="main-p-desde-los-miradores">Desde los miradores a orillas del río Uruguay, es posible tomar sol y admirar el paisaje. El complejo cuenta con 3 piscinas de distintos niveles para poder disfrutar del paisajes, del sol y de la naturaleza.
-                    </p>
-                    <p class="pElLodge pNone" id="main-p-en-nuestra-orilla">En nuestra orilla podemos embarcar para poder visitar directamente a los Saltos de Mocona. (con reserva previa).</p>
-                    <p class="pElLodge pNone" id="main-p-el-house-espacio-podemos">El House es el espacio donde podemos disfrutar de un espacio mágico y cálido, donde brindamos el servicio de gastronomía y podemos entretenernos con juegos de mesa, y en invierno disfrutar de la calidez del hogar a leña.</p>
-                    <div class="div-ver-mas-header">
-                        <p class="link" id="main-verMas-1">Ver más</p>
-                        <img id='arrow-ver-mas' src="img/arrowDownHeader.svg" />
-                    </div>
-                </div>
-
-
-                <div class="col-12 col-md-6" style="padding-top: 30px;">
-                    <div class="divContactSectionElLodge">
-                        <img src="img/whatsappMain.svg" class="imgContactSectionElLodge" /><span>(011) 15 3415-
-                            0500</span>
-                    </div>
-                    <div class="divContactSectionElLodge">
-                        <img src="img/mail.svg" class="imgContactSectionElLodge"><span>lamisionlodge@gmail.com</span>
-                    </div>
-                    <div class="divContactSectionElLodge divLocationSectionElLodge">
-                        <img src="img/location.svg" class="imgContactSectionElLodge imgLocationSectionElLodge" />
-                        <span id="main-direccion">Ruta provincial 2km 36.
-                            Colonia Paraíso - Saltos del Moconá -
-                            Misiones - Argentina</span>
-                    </div>
-                </div>
-            </div>
-            <div class="row" style="margin-top: 80px;">
                 <div class="col-12 col-md-4 position-relative text-center text-md-start">
                     <a href="pages/gastronomia.php">
                         <img src="img/gastronomia.webp" class="imgRelativeSide" loading="lazy">
@@ -311,6 +279,38 @@
                         <img src="img/domo.webp" class="img-domo" loading="lazy">
                         <div class="text-absolute-img text-absolute-img-domos"><span id="main-domos">Domos</span><img src="img/arrowRightWhite.svg" /></div>
                     </a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <main class="container-fluid section-sustentabilidad-cta mt-5">
+        <div class="container ">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h6 class="page-name " style="color: #FF7C00;">MISIÓN MOCONÁ</h6>
+                    <h1 class="fw-bold text-white" id="main-sustentabilidad-index">Sustentabilidad</h1>
+                    <p class="p-header" id="main-p-sustentabilidad-index">La Misión Moconá demuestra una gestión sustentable, respetuosa con el medio ambiente y socialmente responsable con la comunidad y con el destino turístico en el que desarrollan su actividad.</p>
+                    <p class="p-header" id="main-p-sustentabilidad-index">Innovación aplicada que integran los principios de sustentabilidad en la cadena de valor de la hotelería.</p>
+                    <a href="pages/sustentabilidad.php" class="link" id="main-masInfo-sustentabilidad-index">Más información</a>
+                    <a href="pages/sustentabilidad.php" class="linkArrow"> <img src="img/arrowDown.svg" /></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <main class="container-fluid sectionSuites">
+        <section class="container">
+            <div class="row colWithMarginTopSectionSuites">
+                <div class="col-12 col-lg-6 text-center text-lg-start">
+                    <img src="img/gastronomiaHeader.webp" class="img-saltos">
+                </div>
+                <div class="col-12 col-lg-6 d-flex justify-content-center col-right-section-saltos mt-4">
+                    <h6 class="h6LaMision">LA MISIÓN MOCONÁ</h6>
+                    <h3 class="h3TitleSection" id="main-gastronomia-index">Gastronomía</h3>
+                    <p id="main-p-gastronomia-index">En el restaurant de La Misión proponemos disfrutar del placer de los mejores sabores elaborados con productos frescos y de la mejor calidad. La mayoría de las verduras y hortalizas son de nuestra huerta, lo cual nos permite disfrutar de los gustos naturales sin químicos ni conservantes.</p>
+                    <div class="div-info-section-saltos">
+                        <a href="pages/gastronomia.php" class="link" id="main-masInfo-gastronomia-index">Más información</a>
+                        <a href="pages/gastronomia.php" class="linkArrow"> <img src="img/arrowDown.svg" /></a>
+                    </div>
                 </div>
             </div>
             <div class="row rowSectionLocation">

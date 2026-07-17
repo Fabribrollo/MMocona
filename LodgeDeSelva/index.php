@@ -19,7 +19,7 @@
                         <div class="container-fluid" id='navbar-header-div'>
                             <a href="index.php"><img class="navbar-brand" src="img/logo.svg" /></a>
                             <div class='divImgMobileHeader'>
-                                <a href='https://wa.me/541134150500' target="_blank" id='social-media-header-whatsapp'><img src='img/whatsapp.svg' class='social-media mobile-inline'></a>
+                                <a href='https://wa.me/541134150500' target="_blank" id='social-media-header-whatsapp'><span class='whatsapp-phone-pill mobile-inline'>+54 11 3415 0500</span></a>
                                 <a href='https://instagram.com/lamision.mocona' target="_blank" id='social-media-header-instagram'><img src='img/instagram.svg' class='social-media mobile-inline'></a>
                             </div>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id='button-menu-header'>
@@ -72,8 +72,7 @@
                                 </ul>
                                 <form class="d-flex align-items-center social-media-reservar-menu-mobile">
                                     <div class='social-media-menu-mobile'>
-                                        <span class='nav-link mobile'>(011) 15 3415- 0500</span>
-                                        <a href='https://wa.me/541134150500' target="_blank"><img src='img/whatsapp.svg' class='social-media'></a>
+                                        <a href='https://wa.me/541134150500' target="_blank"><span class='whatsapp-phone-pill'>+54 11 3415 0500</span></a>
                                         <a href='https://instagram.com/lamision.mocona' target="_blank" id='social-media-header-instagram'><img src='img/instagram.svg' class='social-media'></a>
                                     </div>
                                     <a class='btn btn-reserva-ahora btn-reserva-ahora-header' href='pages/reservaAhora.php' id='header-reserva-ahora-1'>Reserva ahora</a>
@@ -91,62 +90,58 @@
             </div>
             <div class="row" id='row-header-title'>
                 <div class="col-12">
-                    <h6 class="page-name">LODGE DE SELVA</h6>
-                    <h1 class="title" id="header-respira">Respirá </h1>
-                    <h1 class="title title-white" id="header-naturaleza"> Naturaleza</h1>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-btn-reserva-ahora-header">
-                    <button class='btn btn-reserva-ahora' id='header-reserva-ahora-2' data-bs-toggle="offcanvas" data-bs-target="#formBottomMobile" aria-controls="formBottomMobile" aria-label="Toggle navigation">Reserva ahora</button>
+                    <h6 class="page-name" style="visibility:hidden;">LODGE DE SELVA</h6>
+                    <h1 class="title" id="header-respira" style="visibility:hidden;">Respirá </h1>
+                    <h1 class="title title-white" id="header-naturaleza" style="visibility:hidden;"> Naturaleza</h1>
                 </div>
             </div>
         </div>
         <img src="img/header-flower-index.png" class="img-absolute-header img-absolute-header-index">
     </header>
-    <main class="container-fluid sectionReservaAhora desktop">
-        <section class="container">
-            <div class="row justify-content-center">
-                <div class='col-12 col-lg-11 col-form-reserva-ahora'>
-                    <form action="https://www.hoteladmin.com.ar/system/responsive/plugged-apps/book-vertical.php?hotelID=334&action=query_externo" target="_blank"  method="post" class='form-reserva container-fluid form-reserva-ahora'>
-                        <div class='row justify-content-evenly align-items-center'>
+    <div class="container-fluid" style="background-color: #F7F7F7; padding-bottom: 40px; margin-bottom: -70px;">
+        <div class="container floating-buttons">
+            <div class="row floating-buttons-row justify-content-center">
+                <div class="col-12">
+                    <form action="https://www.hoteladmin.com.ar/system/responsive/plugged-apps/book-vertical.php?hotelID=334&action=query_externo" target="_blank" method="post" class="form-reserva form-reserva-ahora form-reserva-index container-fluid">
+                        <div class="row justify-content-evenly align-items-center">
                             <div class="col-12 col-md-5 col-fechas-reserva-ahora">
                                 <div class="container-fluid container-form-reservar-ahora-fechas">
                                     <div class="row">
-                                        <div class="col-6 col-form-group-form-fechas">
-                                            <div class='form-group form-group-fecha-entrada'>
-                                                <label for='fecha-entrada' class='label-fechas'>CHECK IN</label>
-                                                <img src='img/datePicker.svg' class='img-date'>
-                                                <input name="f_in" class='form-control input-fecha' id='fecha-entrada' type='date'>
+                                        <div class="col-12 col-md-6 col-form-group-form-fechas">
+                                            <div class="form-group form-group-fecha-entrada">
+                                                <label for="fecha-entrada" class="label-fechas">CHECK IN</label>
+                                                <img src="img/datePicker.svg" class="img-date">
+                                                <input name="f_in" class="form-control input-fecha" id="fecha-entrada" type="date">
                                             </div>
                                         </div>
-                                        <div class='col-6 col-form-group-form-fechas'>
+                                        <div class="col-12 col-md-6 col-form-group-form-fechas">
                                             <div class="form-group form-group-fecha-salida form-group-fecha-salida-reserva-ahora">
-                                                <label for='fecha-salida' class='label-fechas label-check-out-reserva-ahora'>CHECK OUT</label>
-                                                <input name="f_fin" type='date' class='form-control input-fecha input-fecha-salida'>
+                                                <label for="fecha-salida" class="label-fechas label-check-out-reserva-ahora">CHECK OUT</label>
+                                                <img src="img/datePicker.svg" class="img-date">
+                                                <input name="f_fin" type="date" class="form-control input-fecha input-fecha-salida" id="fecha-salida">
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class='form-group form-group-huespedes col-12 col-md-4'>
-                                <label for='select-huespedes' class='label-huespedes' id='label-huespedes'>PASAJEROS</label>
-                                <img src='img/huesped.svg' class='img-date'>
-                                <select name="pasajeros" class='form-control select-huespedes' id='select-huespedes'>
-                                    <option id='select-option-1-huesped'>1 pasajero</option>
-                                    <option id='select-option-2-huespedes'>2 pasajeros</option>
-                                    <option id='select-option-3-huespedes'>3 pasajeros</option>
+                            <div class="form-group form-group-huespedes col-12 col-md-4">
+                                <label for="select-huespedes" class="label-huespedes" id="label-huespedes">PASAJEROS</label>
+                                <img src="img/huesped.svg" class="img-date">
+                                <select name="pasajeros" class="form-control select-huespedes" id="select-huespedes">
+                                    <option id="select-option-1-huesped">1 pasajero</option>
+                                    <option id="select-option-2-huespedes">2 pasajeros</option>
+                                    <option id="select-option-3-huespedes">3 pasajeros</option>
                                 </select>
                             </div>
                             <div class="col-12 col-md-2 col-btn-buscar">
-                                <button type='submit' value ='buscar' href="pages/reservaAhora.php" class='btn btn-primary btn-form-reservar btn-form-buscar'>Buscar</button>
+                                <button type="submit" class="btn btn-primary btn-form-reservar btn-form-buscar" id="form-btn-reservar">Buscar</button>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </div>
     <main class="container-fluid sectionElLodge">
         <section class="container">
             <div class="row">

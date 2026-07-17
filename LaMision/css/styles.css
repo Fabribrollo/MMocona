@@ -267,8 +267,12 @@ font-weight: 600;
     margin-bottom: 20px;
 }
 
-.row-stickers-index .col-12:last-child .container.stickers {
-    margin-bottom: 0px;
+.stickers-text {
+    padding-right: 40px;
+}
+
+.stickers-text .h3-title-subsection {
+    margin-bottom: 15px;
 }
 
 .form-reserva-index #fecha-salida {
@@ -337,6 +341,31 @@ font-weight: 600;
     padding-top: 198px;
     background-color: #FCF7F2;
     padding-bottom: 90px;
+}
+
+.img-saltos {
+    width: 100%;
+    height: auto;
+}
+
+.section-sustentabilidad-cta {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('../img/sustentabilidad-header.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 480px;
+    display: flex;
+    align-items: center;
+}
+
+.section-sustentabilidad-cta .p-header {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-sustentabilidad-cta .title {
+    margin-bottom: 15px;
 }
 
 .sectionSuites {

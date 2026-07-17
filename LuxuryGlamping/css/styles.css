@@ -21,8 +21,8 @@ header .dropdown-item:hover {
 }
 
 .dropdown-menu {
-    border: transparent;
-    background-color: white!important;
+    border: none;
+    background-color: #FFF;
 }
 
 
@@ -122,7 +122,17 @@ header .navbar {
 }
 
 .navbar-brand {
-    margin-right: 90px;
+    height: 95px;
+    width: auto;
+}
+
+.header-index {
+    padding-bottom: 132px;
+}
+
+.floating-buttons-row {
+    position: relative;
+    bottom: 70px;
 }
 
 header .nav-link,
@@ -197,7 +207,7 @@ header .nav-link:hover {
 }
 
 .sectionElLodge {
-    padding-top: 56px;
+    padding-top: 20px;
     background-color: #F7F7F7;
     max-height: 680px;
 }
@@ -347,6 +357,31 @@ iframe {
     margin-bottom: 80px;
 }
 
+.whatsapp-float {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    transition: transform 0.2s ease;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.08);
+}
+
+.whatsapp-float img {
+    width: 32px;
+    height: 32px;
+}
+
 footer {
     padding-top: 25px;
     background-color: #202020;
@@ -455,6 +490,23 @@ footer .divContactSectionElLodge span {
     display: none;
 }
 
+a:has(.whatsapp-phone-pill) {
+    text-decoration: none;
+}
+
+.whatsapp-phone-pill {
+    background-color: #FF7C00;
+    color: #fff !important;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 18px;
+    border-radius: 20px;
+    white-space: nowrap;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
 .map-google {
     height: 401px;
 }
@@ -504,6 +556,55 @@ footer .divContactSectionElLodge span {
 .sectionReservaAhora {
     min-height: 50px;
     background-color: #F7F7F7;
+}
+
+.form-reserva-index #fecha-salida {
+    padding-bottom: 0px;
+}
+
+@media (max-width: 767px) {
+    .form-reserva-index .form-group-fecha-entrada {
+        margin-bottom: 15px;
+    }
+
+    .form-reserva-index .form-group-fecha-salida {
+        border-left: #DBDBDB 1px solid;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+
+    .form-reserva-index .container-form-reservar-ahora-fechas .form-group-fecha-salida,
+    .form-reserva-index .form-group-fecha-salida-reserva-ahora {
+        display: block;
+        align-items: normal;
+    }
+
+    .form-reserva-index .label-check-out-reserva-ahora {
+        align-self: auto;
+    }
+
+    .form-reserva-index .container-form-reservar-ahora-fechas .form-group-fecha-salida .input-fecha-salida,
+    .form-reserva-index .input-fecha-salida,
+    .form-reserva-index #fecha-salida {
+        text-align: left;
+        padding-bottom: 0px;
+    }
+
+    .form-reserva-index .form-group-huespedes {
+        margin-left: 16px;
+        margin-right: 16px;
+        width: calc(100% - 32px);
+    }
+
+    .form-reserva-index .col-fechas-reserva-ahora {
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+    .form-reserva-index .col-btn-buscar {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }
 
 .form-reserva-ahora .btn-form-buscar {
@@ -1011,9 +1112,6 @@ a:focus {
         display: block !important;
     }
 
-    .colRightSectionElLodge {
-        padding-top: 0px;
-    }
 
     .offcanvas .btn-close {
         width: auto;
@@ -1092,7 +1190,7 @@ a:focus {
     }
 
     .sectionElLodge {
-        padding-top: 120px;
+        padding-top: 0px;
     }
 
     .colWithBorderRight {
@@ -1220,6 +1318,10 @@ a:focus {
 
 @media(max-width: 575px) {
 
+    .header-index {
+        padding-bottom: 62px;
+    }
+
     .row-header-title-open-menu {
         margin-top: 130px;
     }
@@ -1234,7 +1336,8 @@ a:focus {
     }
 
     .navbar-brand {
-        width: 94px;
+        height: 62px;
+        width: auto;
     }
 
     .title {

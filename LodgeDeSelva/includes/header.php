@@ -10,7 +10,7 @@ function headerPrint($title, $contenidoHeader, $rutaImagen, $classFlor, $isReser
                     <div class='container-fluid' id='navbar-header-div'>
                     <a href='../index.php'><img class='navbar-brand' src='../img/logo.svg' /></a>
                     <div class='divImgMobileHeader'>
-                        <a href='https://wa.me/541134150500' target='_blank' id='social-media-header-whatsapp'><img src='../img/whatsapp.svg' class='social-media mobile-inline'></a>
+                        <a href='https://wa.me/541134150500' target='_blank' id='social-media-header-whatsapp'><span class='whatsapp-phone-pill mobile-inline'>+54 11 3415 0500</span></a>
                         <a href='https://instagram.com/lamision.mocona' target='_blank' id='social-media-header-instagram'><img src='../img/instagram.svg' class='social-media mobile-inline'></a>
                     </div>
                         <button class='navbar-toggler' type='button' data-bs-toggle='collapse'
@@ -65,8 +65,7 @@ function headerPrint($title, $contenidoHeader, $rutaImagen, $classFlor, $isReser
                             </ul>
                             <form class='d-flex align-items-center social-media-reservar-menu-mobile'>
                                     <div class='social-media-menu-mobile'>
-                                        <span class='nav-link mobile'>(011) 15 3415- 0500</span>
-                                        <a href='https://wa.me/541134150500' target='_blank'><img src='../img/whatsapp.svg' class='social-media'></a>
+                                        <a href='https://wa.me/541134150500' target='_blank'><span class='whatsapp-phone-pill'>+54 11 3415 0500</span></a>
                                         <a href='https://instagram.com/lamision.mocona' target='_blank'><img src='../img/instagram.svg' class='social-media'></a>
                                     </div>
                                     <a class='btn btn-reserva-ahora btn-reserva-ahora-header' href='reservaAhora.php' id='header-reserva-ahora-1''>Reserva ahora</a>

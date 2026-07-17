@@ -45,7 +45,7 @@ function headerPrint($title, $contenidoHeader, $rutaImagen, $classFlor, $isReser
                                         <a class='nav-link' href='excursiones.php' id='header-actividades'>Actividades</a>
                                     </li>
                                     <li class='nav-item'>
-                                        <a class='nav-link' href='sustentabilidad.php' id='header-sustentabilidad'>Sustentabilidad</a>
+                                        <a class='nav-link' href='promociones.php' id='header-sustentabilidad'>Promociones</a>
                                     </li>
                                     <li class='nav-item'>
                                     <a class='nav-link' href='galeria.php' id='header-sustentabilidad'>Galeria</a>

@@ -2,7 +2,10 @@
 
 function footerPrint($imgLink = "'../img/", $pagesLink = "'", $indexLink = "'../", $externLink = "'../../")
 {
-    echo "<footer class='container-fluid'>
+    echo "<a href='https://api.whatsapp.com/send/?phone=541134150500&text&type=phone_number&app_absent=0' target='_blank' class='whatsapp-float' aria-label='Escribinos por WhatsApp'>
+        <img src={$imgLink}whatsapp.svg' />
+    </a>
+    <footer class='container-fluid'>
         <div class='container'>
             <div class='row first-row-footer justify-content-center justify-content-lg-start'>
                 <div class='col-12 col-lg-2 text-center text-lg-start'>

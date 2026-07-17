@@ -1530,9 +1530,9 @@
     {
         "id": "header-sustentabilidad",
         "langs": {
-            "es": "Sustentabilidad",
-            "en": "Sustainability",
-            "pt": "Sustentabilidade"
+            "es": "Promociones",
+            "en": "Promotions",
+            "pt": "Promoções"
         }
     },
     {
