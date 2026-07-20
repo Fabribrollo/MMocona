@@ -25,11 +25,8 @@ function headerPrint($title, $contenidoHeader, $rutaImagen, $classFlor, $isReser
                                     El Complejo
                                 </a>
                                 <ul class='dropdown-menu'>
-                                    <li class='nav-item'><a class='dropdown-item nav-link' href='house.php'>House</a></li>
-                                    <li class='nav-item'><a class='dropdown-item nav-link' href='gastronomia.php'>Gastronomía</a></li>
-                                    <li class='nav-item'><a class='dropdown-item nav-link' href='saltos.php'>Saltos</a></li>
-                                    <li class='nav-item'><a class='dropdown-item nav-link' href='../LodgeDeSelva/index.php'>Lodge</a></li>
-                                    <li class='nav-item'><a class='dropdown-item nav-link' href='../LuxuryGlamping/index.php'>Domos</a></li>
+                                    <li class='nav-item'><a class='dropdown-item nav-link' href='../LodgeDeSelva/index.php'>Lodge de Selva</a></li>
+                                    <li class='nav-item'><a class='dropdown-item nav-link' href='../LuxuryGlamping/index.php'>Luxury Glamping</a></li>
                                 </ul>
                             </li>
                             <li class='nav-item dropdown'>
@@ -37,12 +34,24 @@ function headerPrint($title, $contenidoHeader, $rutaImagen, $classFlor, $isReser
                                     Habitaciones
                                 </a>
                                 <ul class='dropdown-menu'>
-                                    <li class='nav-item'><a class='dropdown-item nav-link' href='domos.php'>Domos</a></li>
-                                    <li class='nav-item'><a class='dropdown-item nav-link' href='suites.php'>Suites</a></li>
+                                    <li class='nav-item'><a class='dropdown-item nav-link' href='suites.php#main-master-suite'>Master</a></li>
+                                    <li class='nav-item'><a class='dropdown-item nav-link' href='suites.php#main-suite-selva'>Suite selva</a></li>
+                                    <li class='nav-item'><a class='dropdown-item nav-link' href='suites.php#main-gran-suite'>Gran suite</a></li>
+                                    <li class='nav-item'><a class='dropdown-item nav-link' href='domos.php#main-domos-rio'>Domo rio</a></li>
+                                    <li class='nav-item'><a class='dropdown-item nav-link' href='domos.php#main-domos-selva'>Domo selva</a></li>
                                 </ul>
                             </li>
-                                    <li class='nav-item'>
-                                        <a class='nav-link' href='excursiones.php' id='header-actividades'>Actividades</a>
+                                    <li class='nav-item dropdown'>
+                                        <a class='nav-link dropdown-toggle label' id='header-actividades' href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false'>
+                                            Actividades
+                                        </a>
+                                        <ul class='dropdown-menu'>
+                                            <li class='nav-item'><a class='dropdown-item nav-link' id='nav-safari-4x4' href='excursiones.php#main-safari-4x4'>Safari 4x4</a></li>
+                                            <li class='nav-item'><a class='dropdown-item nav-link' id='nav-aventura-floating' href='excursiones.php#main-aventura-floating'>Aventura en Floating</a></li>
+                                            <li class='nav-item'><a class='dropdown-item nav-link' id='nav-cabalgatas' href='excursiones.php#main-cabalgatas'>Cabalgatas</a></li>
+                                            <li class='nav-item'><a class='dropdown-item nav-link' id='nav-avistajes-aves' href='excursiones.php#main-avistaje-aves'>Avistajes de Aves</a></li>
+                                            <li class='nav-item'><a class='dropdown-item nav-link' id='nav-senderos-interpretativos' href='excursiones.php#main-senderos-interpretativos'>Senderos Interpretativos</a></li>
+                                        </ul>
                                     </li>
                                     <li class='nav-item'>
                                         <a class='nav-link' href='promociones.php' id='header-sustentabilidad'>Promociones</a>

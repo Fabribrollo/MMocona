@@ -25,7 +25,7 @@
         <section class="container">
             <div class="row">
                 <div class="col-12 col-lg-7 col-with-border-bottom">
-                    <h3 class="h3TitleSection">Safari 4x4</h3>
+                    <h3 class="h3TitleSection" id="main-safari-4x4">Safari 4x4</h3>
                     <p class="p-suites" id="main-p-excursion-4x4">Esta excursión se realiza en vehículos 4x4, partiendo desde La Misión con
                         destino a la reserva de Biosfera Yaboty. Luego de un deslumbrante recorrido por parte de la
                         selva misionera, llegaremos al mirador, punto panorámico, donde luego de contemplar miles de

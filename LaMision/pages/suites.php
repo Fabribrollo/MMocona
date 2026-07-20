@@ -30,7 +30,7 @@
         <section class="container">
             <div class="row">
                 <div class="col-12 col-lg-7 col-with-border-bottom">
-                    <h3 class="h3TitleSection">Master suite</h3>
+                    <h3 class="h3TitleSection" id="main-master-suite">Master suite</h3>
                     <p class="p-suites" id="main-p-master-suite-construidas">Construidas con los mejores materiales y diseño arquitectónico, lo cual
                         transforman los 65 m2 totales en un ambiente íntimo y de máximo confort. En los inmensos baños
                         podemos encontrar además de un hidromasaje con una vista panorámica al rio y la selva, una ducha

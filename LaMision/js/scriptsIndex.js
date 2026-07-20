@@ -1,4 +1,6 @@
-document.getElementById("main-verMas-1").addEventListener("click", dropdown);
+if (document.getElementById("main-verMas-1")) {
+    document.getElementById("main-verMas-1").addEventListener("click", dropdown);
+}
 document.getElementById("button-menu-header").addEventListener("click", menuFixed);
 document.getElementById("languages1").addEventListener("change", scrollLanguajes);
 document.getElementById("languages2").addEventListener("change", scrollLanguajes);

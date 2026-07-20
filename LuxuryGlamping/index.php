@@ -32,8 +32,8 @@
                                             Habitaciones
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li class="nav-item"><a class="dropdown-item nav-link" href="pages/domos.php#main-domos-rio">Domos Rio</a></li>
-                                            <li class="nav-item"><a class="dropdown-item nav-link" href="pages/domos.php#main-domos-selva">Domos Selva</a></li>
+                                            <li class="nav-item"><a class="dropdown-item nav-link" id="nav-domos-rio" href="pages/domos.php#main-domos-rio">Domos Rio</a></li>
+                                            <li class="nav-item"><a class="dropdown-item nav-link" id="nav-domos-selva" href="pages/domos.php#main-domos-selva">Domos Selva</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item dropdown">
@@ -41,18 +41,12 @@
                                             Actividades
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li class="nav-item"><a class="dropdown-item nav-link" href="pages/excursiones.php">Safari 4x4</a></li>
-                                            <li class="nav-item"><a class="dropdown-item nav-link" href="pages/excursiones.php">Aventura en Floating</a></li>
-                                            <li class="nav-item"><a class="dropdown-item nav-link" href="pages/excursiones.php">Cabalgatas</a></li>
-                                            <li class="nav-item"><a class="dropdown-item nav-link" href="pages/excursiones.php">Avistajes de Aves</a></li>
-                                            <li class="nav-item"><a class="dropdown-item nav-link" href="pages/excursiones.php">Senderos Interpretativos</a></li>
+                                            <li class="nav-item"><a class="dropdown-item nav-link" id="nav-safari-4x4" href="pages/excursiones.php#main-safari-4x4">Safari 4x4</a></li>
+                                            <li class="nav-item"><a class="dropdown-item nav-link" id="nav-aventura-floating" href="pages/excursiones.php#main-aventura-floating">Aventura en Floating</a></li>
+                                            <li class="nav-item"><a class="dropdown-item nav-link" id="nav-cabalgatas" href="pages/excursiones.php#main-cabalgatas">Cabalgatas</a></li>
+                                            <li class="nav-item"><a class="dropdown-item nav-link" id="nav-avistajes-aves" href="pages/excursiones.php#main-avistaje-aves">Avistajes de Aves</a></li>
+                                            <li class="nav-item"><a class="dropdown-item nav-link" id="nav-senderos-interpretativos" href="pages/excursiones.php#main-senderos-interpretativos">Senderos Interpretativos</a></li>
                                         </ul>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="pages/gastronomia.php" id="restaurante">Restaurante</a>
-                                    </li>
-                                    <li class='nav-item'>
-                                        <a class='nav-link' href='pages/sustentabilidad.php' id='header-sustentabilidad'>Sustentabilidad</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="pages/galeria.php" id="header-galeria">Galeria</a>
@@ -239,7 +233,7 @@
                 <div class="col-12">
                     <span class="h6LaMision">LA MISIÓN MOCONÁ</span>
                     </br>
-                    <span class="section-divider-text">Estamos donde queremos estar,</br>
+                    <span class="section-divider-text" id="main-p-video">Estamos donde queremos estar,</br>
                     rodeados de la siempre apasionante y</br>
                     sorprendente Madre Naturaleza.</span>
                 </div>

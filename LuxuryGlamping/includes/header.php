@@ -25,8 +25,8 @@ function headerPrint($title, $contenidoHeader, $rutaImagen, $classFlor, $isReser
                                     Habitaciones
                                 </a>
                                 <ul class='dropdown-menu'>
-                                    <li class='nav-item'><a class='dropdown-item nav-link' href='domos.php#main-domos-rio'>Domos Rio</a></li>
-                                    <li class='nav-item'><a class='dropdown-item nav-link' href='domos.php#main-domos-selva'>Domos Selva</a></li>
+                                    <li class='nav-item'><a class='dropdown-item nav-link' id='nav-domos-rio' href='domos.php#main-domos-rio'>Domos Rio</a></li>
+                                    <li class='nav-item'><a class='dropdown-item nav-link' id='nav-domos-selva' href='domos.php#main-domos-selva'>Domos Selva</a></li>
                                 </ul>
                             </li>
                             <li class='nav-item dropdown'>
@@ -34,18 +34,12 @@ function headerPrint($title, $contenidoHeader, $rutaImagen, $classFlor, $isReser
                                     Actividades
                                 </a>
                                 <ul class='dropdown-menu'>
-                                    <li class='nav-item'><a class= 'dropdown-item nav-link' href='excursiones.php'>Safari 4x4</a></li>
-                                    <li class='nav-item'><a class= 'dropdown-item nav-link' href='excursiones.php'>Aventura en Floating</a></li>
-                                    <li class='nav-item'><a class= 'dropdown-item nav-link' href='excursiones.php'>Cabalgatas</a></li>
-                                    <li class='nav-item'><a class= 'dropdown-item nav-link' href='excursiones.php'>Avistajes de Aves</a></li>
-                                    <li class='nav-item'><a class= 'dropdown-item nav-link' href='excursiones.php'>Senderos Interpretativos</a></li>
+                                    <li class='nav-item'><a class= 'dropdown-item nav-link' id='nav-safari-4x4' href='excursiones.php#main-safari-4x4'>Safari 4x4</a></li>
+                                    <li class='nav-item'><a class= 'dropdown-item nav-link' id='nav-aventura-floating' href='excursiones.php#main-aventura-floating'>Aventura en Floating</a></li>
+                                    <li class='nav-item'><a class= 'dropdown-item nav-link' id='nav-cabalgatas' href='excursiones.php#main-cabalgatas'>Cabalgatas</a></li>
+                                    <li class='nav-item'><a class= 'dropdown-item nav-link' id='nav-avistajes-aves' href='excursiones.php#main-avistaje-aves'>Avistajes de Aves</a></li>
+                                    <li class='nav-item'><a class= 'dropdown-item nav-link' id='nav-senderos-interpretativos' href='excursiones.php#main-senderos-interpretativos'>Senderos Interpretativos</a></li>
                                 </ul>
-                            </li>
-                            <li class='nav-item'>
-                                <a class='nav-link' href='excursiones.php' id='restaurante'>Restaurant</a>
-                            </li>
-                            <li class='nav-item'>
-                                    <a class='nav-link' href='sustentabilidad.php' id='header-sustentabilidad'>Sustentabilidad</a>
                             </li>
                             <li class='nav-item'>
                                 <a class='nav-link' href='galeria.php' id='header-galeria'>Galeria</a>

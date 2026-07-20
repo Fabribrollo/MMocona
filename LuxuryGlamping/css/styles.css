@@ -213,7 +213,7 @@ header .nav-link:hover {
 }
 
 .sectionSaltos {
-    padding-top: 198px;
+    padding-top: 132px;
     background-color: rgba(164, 188, 24, 0.1);
     padding-bottom: 90px;
 }
@@ -1225,7 +1225,7 @@ a:focus {
     }
 
     .sectionSaltos {
-        padding-top: 210px;
+        padding-top: 140px;
     }
 
     .img-saltos,
@@ -1411,7 +1411,7 @@ a:focus {
     }
 
     .sectionSaltos {
-        padding-top: 54px;
+        padding-top: 36px;
     }
 
     .col-right-section-saltos p,

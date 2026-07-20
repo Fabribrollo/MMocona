@@ -24,6 +24,54 @@
         }
     },
     {
+        "id": "nav-safari-4x4",
+        "langs": {
+            "es": "Safari 4x4",
+            "en": "Safari 4x4",
+            "pt": "Safari 4x4"
+        }
+    },
+    {
+        "id": "nav-aventura-floating",
+        "langs": {
+            "es": "Aventura en Floating",
+            "en": "Floating Adventure",
+            "pt": "Aventura em Floating"
+        }
+    },
+    {
+        "id": "nav-cabalgatas",
+        "langs": {
+            "es": "Cabalgatas",
+            "en": "Horse Riding",
+            "pt": "Cavalgadas"
+        }
+    },
+    {
+        "id": "nav-avistajes-aves",
+        "langs": {
+            "es": "Avistajes de Aves",
+            "en": "Bird Watching",
+            "pt": "Observação de Aves"
+        }
+    },
+    {
+        "id": "nav-senderos-interpretativos",
+        "langs": {
+            "es": "Senderos Interpretativos",
+            "en": "Interpretive Footpaths",
+            "pt": "Trilhas Interpretativas"
+        }
+    },
+    {
+        "id": "header-galeria",
+        "langs": {
+            "es": "Galería",
+            "en": "Gallery",
+            "pt": "Galeria"
+        }
+    },
+    {
         "id": "header-contacto",
         "langs": {
             "es": "Contacto",
@@ -85,6 +133,14 @@
             "es": "Construimos Posada La Misión Moconá con la intención de brindarle un lugar sin igual para su descanso. En este lugar único, estamos donde queremos estar, rodeados de la siempre apasionante y sorprendente Madre Naturaleza.",
             "en": "We built the lodge La Misión Moconá with the intention of providing you an exceptional place for your rest. In this incomparable place, we are where we want to be, surrounded by the always fascinating and amazing Mother Nature.",
             "pt": "Construímos a Pousada “La Misión Moconá” com a intenção de proporcionar um lugar incomparável para o seu descanso. Neste lugar único, estamos onde queremos estar, rodeados pela sempre emocionante e surpreendente Mãe Natureza."
+        }
+    },
+    {
+        "id": "main-p-video",
+        "langs": {
+            "es": "Estamos donde queremos estar, <br> rodeados de la siempre apasionante y <br> sorprendente Madre Naturaleza.",
+            "en": "We are where we want to be, <br> surrounded by the always fascinating and <br> amazing Mother Nature.",
+            "pt": "Estamos onde queremos estar, <br> rodeados pela sempre emocionante e <br> surpreendente Mãe Natureza."
         }
     },
     {
@@ -161,6 +217,14 @@
     },
     {
         "id": "main-masInfo-1",
+        "langs": {
+            "es": "Más información",
+            "en": "More information",
+            "pt": "Mais informação"
+        }
+    },
+    {
+        "id": "main-masInfo-sustentabilidad-index",
         "langs": {
             "es": "Más información",
             "en": "More information",
@@ -421,6 +485,14 @@
             "es": "Aire acondicionado frío / calor",
             "en": "Hot / cold air conditioning",
             "pt": "Ar condicionado quente/frio"
+        }
+    },
+    {
+        "id": "main-actividades",
+        "langs": {
+            "es": "Actividades",
+            "en": "Activities",
+            "pt": "Atividades"
         }
     },
     {
@@ -992,6 +1064,31 @@
         }
     },
     {
+        "id": "main-gastronomia-index",
+        "langs": {
+            "es": "Gastronomía",
+            "en": "Gastronomy",
+            "pt": "Gastronomia"
+        }
+    },
+
+    {
+        "id": "main-p-gastronomia-index",
+        "langs": {
+            "es": "En el restaurant de La Misión proponemos disfrutar del placer de los mejores sabores elaborados con productos frescos y de la mejor calidad. La mayoría de las verduras y hortalizas son de nuestra huerta, lo cual nos permite disfrutar de los gustos naturales sin químicos ni conservantes",
+            "en": "At the La Mission restaurant, we propose to enjoy the pleasure of the best flavors made with fresh and best quality products. Most vegetables are from our garden, which allows to enjoy the natural taste without chemicals or preservatives.",
+            "pt": "No restaurante La Misão oferecemos um ambiente para desfrutar do prazer dos melhores sabores elaborados com produtos frescos e de primeira qualidade. A maior parte dos vegetais é da nossa horta, o que nos permite desfrutar de sabores naturais sem produtos químicos nem conservantes."
+        }
+    },
+    {
+        "id": "main-masInfo-gastronomia-index",
+        "langs": {
+            "es": "Más información",
+            "en": "More information",
+            "pt": "Mais informações"
+        }
+    },
+    {
         "id": "header-p-restaurante-la-mision",
         "langs": {
             "es": "En el restaurant de La Misión proponemos disfrutar del placer de los mejores sabores elaborados con productos frescos y de la mejor calidad. La mayoría de las verduras y hortalizas son de nuestra huerta, lo cual nos permite disfrutar de los gustos naturales sin químicos ni conservantes",
@@ -1336,6 +1433,14 @@
         }
     },
     {
+        "id": "main-sustentabilidad-index",
+        "langs": {
+            "es": "Sustentabilidad",
+            "en": "Sustainability",
+            "pt": "Sustentabilidade"
+        }
+    },
+    {
         "id": "header-p-gestion-sustentable",
         "langs": {
             "es": "La Mision Mocona demuestra una gestión sustentable, respetuosa con el medio ambiente y socialmente responsable con la comunidad y con el destino turístico en el que desarrollan su actividad.",
@@ -1574,5 +1679,46 @@
             "en": "The House is the space where we can enjoy a magical and warm space, where we provide the gastronomy service and we can entertain ourselves with board games, and in winter enjoy the warmth of the fireplace.",
             "pt": "O House é o espaço onde podemos desfrutar de um espaço mágico e acolhedor, onde prestamos serviço de gastronomia e podemos divertir-nos com jogos de mesa, e no inverno desfrutar do calor da lareira."
         }
+    },
+    {
+        "id": "main-p-LodgedeSelva",
+        "langs": {
+            "es": "Construimos el Lodge La Misión Moconá con la intención de brindarle un lugar sin igual para su descanso. En este lugar único, estamos donde queremos estar, rodeados de la siempre apasionante y sorprendente Madre Naturaleza.",
+            "en": "We have built the Lodge La Mision Moconá with the intention of providing you with a unique place for your rest. In this special place, we are where we want to be, surrounded by the always fascinating and amazing Mother Nature.",
+            "pt": "Construímos o Lodge La Mision Moconá com a intenção de oferecer um lugar único para seu descanso. Neste lugar especial, estamos onde queremos estar, rodeados pela sempre emocionante e surpreendente Mãe Natureza."
+        }
+    },
+    {
+        "id": "main-p-LodgedeSelva-2",
+        "langs": {
+            "es": "Contamos con 3 tipos de habitaciones de acuerdo a las diversas necesidades; las Suite de Selva, Master Suites y la Gran Suite; todas vistas al rio Uruguay, con aire acondicionado, camas King size, calefacción y servicio de mucama.",
+            "en": "We have 3 types of rooms according to various needs; the Jungle Suites, Master Suites and the Grand Suite; all with views of the Uruguay River, with air conditioning, king-size beds, heating and maid service.",
+            "pt": "Dispomos de 3 tipos de quartos de acordo com as diversas necessidades; as Suítes da Selva, Suítes Master e a Suíte Grande; todas com vista para o Rio Uruguai, com ar condicionado, camas king-size, aquecimento e serviço doméstico."
+        }
+    },
+    {
+        "id": "main-h3-LuxuryGlamping",
+        "langs": {
+            "es": "Reserva Mocona | Solo Adultos",
+            "en": "Reserve Mocona | Adults Only",
+            "pt": "Reserve Mocona | Apenas Adultos"
+        }
+    },
+    {
+        "id": "main-p-LuxuryGlamping",
+        "langs": {
+            "es": "Reserva Moconá es un Luxury Glamping; es una fusión de ”glamour” y “camping”, ofrece experiencias inmersivas en la naturaleza con comodidades de hotel 5 estrellas, con camas premium, baño privado con hidromasajes, aire acondicionado, frigobar, calefacción y gastronomía gourmet.",
+            "en": "Reserva Moconá is a Luxury Glamping; a fusion of ”glamour” and “camping”, offering immersive nature experiences with 5-star hotel amenities, premium beds, private bathroom with hydromassage, air conditioning, minibar, heating and gourmet cuisine.",
+            "pt": "Reserva Moconá é um Luxury Glamping; uma fusão de ”glamour” e “camping”, oferecendo experiências imersivas na natureza com comodidades de hotel 5 estrelas, camas premium, banheiro privativo com hidromassagem, ar condicionado, frigobar, aquecimento e gastronomia gourmet."
+        }
+    },
+    {
+        "id": "main-p-LuxuryGlamping-2",
+        "langs": {
+            "es": "Se encuentra al lado del Lodge la Misión Moconá, por un convenio el mismo usa las mismas instalaciones, osea que si te alojas en los Domos podes disfrutar del mejor complejo de los Saltos del Moconá, 3 piletas, house para desayunar, almorzar, merendar y cenar.",
+            "en": "It is located next to the Lodge La Misión Moconá; through an agreement it uses the same facilities, meaning that if you stay in the Domes you can enjoy the best complex of the Saltos del Moconá, 3 pools, and the house for breakfast, lunch, afternoon tea and dinner.",
+            "pt": "Está localizado ao lado do Lodge La Misión Moconá; por um convênio utiliza as mesmas instalações, ou seja, se você se hospedar nos Domos pode desfrutar do melhor complexo dos Saltos do Moconá, 3 piscinas, e a casa para café da manhã, almoço, lanche da tarde e jantar."
+        }
     }
+
 ]

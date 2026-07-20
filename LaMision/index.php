@@ -37,11 +37,8 @@
                                             El Complejo
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li class="nav-item"><a class="dropdown-item nav-link" href="pages/house.php">House</a></li>
-                                            <li class="nav-item"><a class="dropdown-item nav-link" href="pages/gastronomia.php">Gastronomía</a></li>
-                                            <li class="nav-item"><a class="dropdown-item nav-link" href="pages/saltos.php">Saltos</a></li>
-                                            <li class='nav-item'><a class='dropdown-item nav-link' href='../LodgeDeSelva/index.php'>Lodge</a></li>
-                                            <li class='nav-item'><a class='dropdown-item nav-link' href='../LuxuryGlamping/index.php'>Domos</a></li>
+                                            <li class='nav-item'><a class='dropdown-item nav-link' href='../LodgeDeSelva/index.php'>Lodge de Selva</a></li>
+                                            <li class='nav-item'><a class='dropdown-item nav-link' href='../LuxuryGlamping/index.php'>Luxury Glamping</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item dropdown">
@@ -49,12 +46,24 @@
                                             Habitaciones
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li class="nav-item"><a class="dropdown-item nav-link" href="pages/domos.php">Domos</a></li>
-                                            <li class="nav-item"><a class="dropdown-item nav-link" href="pages/suites.php">Suites</a></li>
+                                            <li class="nav-item"><a class="dropdown-item nav-link" href="pages/suites.php#main-master-suite">Master</a></li>
+                                            <li class="nav-item"><a class="dropdown-item nav-link" href="pages/suites.php#main-suite-selva">Suite selva</a></li>
+                                            <li class="nav-item"><a class="dropdown-item nav-link" href="pages/suites.php#main-gran-suite">Gran suite</a></li>
+                                            <li class="nav-item"><a class="dropdown-item nav-link" href="pages/domos.php#main-domos-rio">Domo rio</a></li>
+                                            <li class="nav-item"><a class="dropdown-item nav-link" href="pages/domos.php#main-domos-selva">Domo selva</a></li>
                                         </ul>
                                     </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link label" href="pages/excursiones.php" id="header-actividades">Actividades</a>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle label" id="header-actividades" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            Actividades
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li class="nav-item"><a class="dropdown-item nav-link" id="nav-safari-4x4" href="pages/excursiones.php#main-safari-4x4">Safari 4x4</a></li>
+                                            <li class="nav-item"><a class="dropdown-item nav-link" id="nav-aventura-floating" href="pages/excursiones.php#main-aventura-floating">Aventura en Floating</a></li>
+                                            <li class="nav-item"><a class="dropdown-item nav-link" id="nav-cabalgatas" href="pages/excursiones.php#main-cabalgatas">Cabalgatas</a></li>
+                                            <li class="nav-item"><a class="dropdown-item nav-link" id="nav-avistajes-aves" href="pages/excursiones.php#main-avistaje-aves">Avistajes de Aves</a></li>
+                                            <li class="nav-item"><a class="dropdown-item nav-link" id="nav-senderos-interpretativos" href="pages/excursiones.php#main-senderos-interpretativos">Senderos Interpretativos</a></li>
+                                        </ul>
                                     </li>
                                     <li class='nav-item'>
                                         <a class="nav-link label" href="pages/promociones.php" id="header-sustentabilidad">Promociones</a>
@@ -149,7 +158,7 @@
             </div>
             <div class="row">
                 <div class="col-12 mb-2" style="text-align: center;">
-                    <span class="text-below-stickers" style="color: inherit">CONOZCA NUESTRA OPCIONES DE HOSPEDAJE</span>
+                    <span id="header-conozca-opciones" class="text-below-stickers" style="color: inherit">CONOZCA NUESTRA OPCIONES DE HOSPEDAJE</span>
                 </div>
             </div>
             <div class="row gx-5 row-stickers-index justify-content-center" style="margin-top:16px;">
@@ -162,8 +171,8 @@
                     <div class="stickers-text">
                         <h6 class="h6LaMision">LODGE DE SELVA</h6>
                         <h3 class="h3-title-subsection">Lodge La Mision Moconá</h3>
-                        <p class="p-suites">Construimos el Lodge La Misión Moconá con la intención de brindarle un lugar sin igual para su descanso. En este lugar único, estamos donde queremos estar, rodeados de la siempre apasionante y sorprendente Madre Naturaleza.</p>
-                        <p class="p-suites">Contamos con 3 tipos de habitaciones de acuerdo a las diversas necesidades; las Suite de Selva, Master Suites y la Gran Suite; todas vistas al rio Uruguay, con aire acondicionado, camas King size, calefacción y servicio de mucama.</p>
+                        <p class="p-suites" id="main-p-LodgedeSelva">Construimos el Lodge La Misión Moconá con la intención de brindarle un lugar sin igual para su descanso. En este lugar único, estamos donde queremos estar, rodeados de la siempre apasionante y sorprendente Madre Naturaleza.</p>
+                        <p class="p-suites" id="main-p-LodgedeSelva-2">Contamos con 3 tipos de habitaciones de acuerdo a las diversas necesidades; las Suite de Selva, Master Suites y la Gran Suite; todas vistas al rio Uruguay, con aire acondicionado, camas King size, calefacción y servicio de mucama.</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
@@ -174,9 +183,9 @@
                 </a>
                     <div class="stickers-text">
                         <h6 class="h6LaMision">LUXURY GLAMPING</h6>
-                        <h3 class="h3-title-subsection">Reserva Mocona | Solo Adultos</h3>
-                        <p class="p-suites">Reserva Moconá es un Luxury Glamping; es una fusión de ”glamour” y “camping”, ofrece experiencias inmersivas en la naturaleza con comodidades de hotel 5 estrellas, con camas premium, baño privado con hidromasajes, aire acondicionado, frigobar, calefacción y gastronomía gourmet.</p>
-                        <p class="p-suites">Se encuentra al lado del Lodge la Misión Moconá, por un convenio el mismo usa las mismas instalaciones, osea que si te alojas en los Domos podes disfrutar del mejor complejo de los Saltos del Moconá, 3 piletas, house para desayunar, almorzar, merendar y cenar.</p>
+                        <h3 class="h3-title-subsection" id="main-h3-LuxuryGlamping">Reserva Mocona | Solo Adultos</h3>
+                        <p class="p-suites" id="main-p-LuxuryGlamping">Reserva Moconá es un Luxury Glamping; es una fusión de ”glamour” y “camping”, ofrece experiencias inmersivas en la naturaleza con comodidades de hotel 5 estrellas, con camas premium, baño privado con hidromasajes, aire acondicionado, frigobar, calefacción y gastronomía gourmet.</p>
+                        <p class="p-suites" id="main-p-LuxuryGlamping-2">Se encuentra al lado del Lodge la Misión Moconá, por un convenio el mismo usa las mismas instalaciones, osea que si te alojas en los Domos podes disfrutar del mejor complejo de los Saltos del Moconá, 3 piletas, house para desayunar, almorzar, merendar y cenar.</p>
                     </div>
                 </div>
             </div>
@@ -206,7 +215,7 @@
                 <div class="col-12 col-md-4 position-relative">
                     <a href="pages/excursiones.php">
                         <img src="img/excursiones.webp" class="imgRelativeSide" loading="lazy">
-                        <div class="text-absolute-img text-absolute-img-section-lodge"><span>Actividades</span><img src="img/arrowRightWhite.svg" /></div>
+                        <div class="text-absolute-img text-absolute-img-section-lodge"><span id="main-actividades">Actividades</span><img src="img/arrowRightWhite.svg" /></div>
                     </a>
                 </div>
             </div>
@@ -249,7 +258,7 @@
                 <div class="col-12">
                     <span class="h6LaMision">LA MISIÓN MOCONÁ</span>
                     </br>
-                    <span class="section-divider-text">Estamos donde queremos estar,</br>
+                    <span class="section-divider-text" id="main-p-video">Estamos donde queremos estar,</br>
                     rodeados de la siempre apasionante y</br>
                     sorprendente Madre Naturaleza.</span>
                 </div>
@@ -289,8 +298,8 @@
                 <div class="col-12 text-center">
                     <h6 class="page-name " style="color: #FF7C00;">MISIÓN MOCONÁ</h6>
                     <h1 class="fw-bold text-white" id="main-sustentabilidad-index">Sustentabilidad</h1>
-                    <p class="p-header" id="main-p-sustentabilidad-index">La Misión Moconá demuestra una gestión sustentable, respetuosa con el medio ambiente y socialmente responsable con la comunidad y con el destino turístico en el que desarrollan su actividad.</p>
-                    <p class="p-header" id="main-p-sustentabilidad-index">Innovación aplicada que integran los principios de sustentabilidad en la cadena de valor de la hotelería.</p>
+                    <p class="p-header" id="header-p-gestion-sustentable">La Misión Moconá demuestra una gestión sustentable, respetuosa con el medio ambiente y socialmente responsable con la comunidad y con el destino turístico en el que desarrollan su actividad.</p>
+                    <p class="p-header" id="header-p-innovacion-aplicada">Innovación aplicada que integran los principios de sustentabilidad en la cadena de valor de la hotelería.</p>
                     <a href="pages/sustentabilidad.php" class="link" id="main-masInfo-sustentabilidad-index">Más información</a>
                     <a href="pages/sustentabilidad.php" class="linkArrow"> <img src="img/arrowDown.svg" /></a>
                 </div>

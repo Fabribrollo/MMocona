@@ -7,6 +7,55 @@
         }
     },
     {
+        "id": "nav-domos-rio",
+        "langs": {
+            "es": "Domos Rio",
+            "en": "River Domes"
+        }
+    },
+    {
+        "id": "nav-domos-selva",
+        "langs": {
+            "es": "Domos Selva",
+            "en": "Jungle Domes"
+        }
+    },
+    {
+        "id": "nav-safari-4x4",
+        "langs": {
+            "es": "Safari 4x4",
+            "en": "Safari 4x4"
+        }
+    },
+    {
+        "id": "nav-aventura-floating",
+        "langs": {
+            "es": "Aventura en Floating",
+            "en": "Floating Adventure"
+        }
+    },
+    {
+        "id": "nav-cabalgatas",
+        "langs": {
+            "es": "Cabalgatas",
+            "en": "Horse Riding"
+        }
+    },
+    {
+        "id": "nav-avistajes-aves",
+        "langs": {
+            "es": "Avistajes de Aves",
+            "en": "Bird Watching"
+        }
+    },
+    {
+        "id": "nav-senderos-interpretativos",
+        "langs": {
+            "es": "Senderos Interpretativos",
+            "en": "Interpretive Footpaths"
+        }
+    },
+    {
         "id": "restaurante",
         "langs": {
             "es": "Restaurante",
@@ -97,11 +146,20 @@
             "en": "At the banks of the Uruguay River and near the Moconá Falls, you can find La Misión Moconá on 30 hectares of land; it is a unique place to experience nature with all its magic and splendor."
         }
     },
+        {
+        "id": "main-p-video",
+        "langs": {
+            "es": "Estamos donde queremos estar, <br> rodeados de la siempre apasionante y <br> sorprendente Madre Naturaleza.",
+            "en": "We are where we want to be, <br> surrounded by the always fascinating and <br> amazing Mother Nature.",
+            "pt": "Estamos onde queremos estar, <br> rodeados pela sempre emocionante e <br> surpreendente Mãe Natureza."
+        }
+    },
     {
         "id": "main-verMas-1",
         "langs": {
             "es": "Ver más",
-            "en": "See more"
+            "en": "See more",
+            "pt": "Ver mais"
         }
     },
     {

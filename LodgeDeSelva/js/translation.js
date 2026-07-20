@@ -7,6 +7,69 @@
         }
     },
     {
+        "id": "nav-suite-de-selva",
+        "langs": {
+            "es": "Suite De Selva",
+            "en": "Jungle Suite"
+        }
+    },
+    {
+        "id": "nav-master-suites",
+        "langs": {
+            "es": "Master Suites",
+            "en": "Master Suites"
+        }
+    },
+    {
+        "id": "nav-gran-suite",
+        "langs": {
+            "es": "Gran Suite",
+            "en": "Grand Suite"
+        }
+    },
+    {
+        "id": "nav-safari-4x4",
+        "langs": {
+            "es": "Safari 4x4",
+            "en": "Safari 4x4"
+        }
+    },
+    {
+        "id": "nav-aventura-floating",
+        "langs": {
+            "es": "Aventura en Floating",
+            "en": "Floating Adventure"
+        }
+    },
+    {
+        "id": "nav-cabalgatas",
+        "langs": {
+            "es": "Cabalgatas",
+            "en": "Horse Riding"
+        }
+    },
+    {
+        "id": "nav-avistajes-aves",
+        "langs": {
+            "es": "Avistajes de Aves",
+            "en": "Bird Watching"
+        }
+    },
+    {
+        "id": "nav-senderos-interpretativos",
+        "langs": {
+            "es": "Senderos Interpretativos",
+            "en": "Interpretive Footpaths"
+        }
+    },
+    {
+        "id": "header-galeria",
+        "langs": {
+            "es": "Galeria",
+            "en": "Gallery"
+        }
+    },
+    {
         "id": "restaurante",
         "langs": {
             "es": "Restaurante",
@@ -95,6 +158,14 @@
         "langs": {
             "es": "Ver más",
             "en": "See more"
+        }
+    },
+        {
+        "id": "main-p-video",
+        "langs": {
+            "es": "Estamos donde queremos estar, <br> rodeados de la siempre apasionante y <br> sorprendente Madre Naturaleza.",
+            "en": "We are where we want to be, <br> surrounded by the always fascinating and <br> amazing Mother Nature.",
+            "pt": "Estamos onde queremos estar, <br> rodeados pela sempre emocionante e <br> surpreendente Mãe Natureza."
         }
     },
     {
