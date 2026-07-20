@@ -25,8 +25,8 @@ function headerPrint($title, $contenidoHeader, $rutaImagen, $classFlor, $isReser
                                     El Complejo
                                 </a>
                                 <ul class='dropdown-menu'>
-                                    <li class='nav-item'><a class='dropdown-item nav-link' href='../LodgeDeSelva/index.php'>Lodge de Selva</a></li>
-                                    <li class='nav-item'><a class='dropdown-item nav-link' href='../LuxuryGlamping/index.php'>Luxury Glamping</a></li>
+                                    <li class='nav-item'><a class='dropdown-item nav-link' href='../../LodgeDeSelva/index.php'>Lodge de Selva</a></li>
+                                    <li class='nav-item'><a class='dropdown-item nav-link' href='../../LuxuryGlamping/index.php'>Luxury Glamping</a></li>
                                 </ul>
                             </li>
                             <li class='nav-item dropdown'>
