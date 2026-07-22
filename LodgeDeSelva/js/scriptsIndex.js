@@ -1,24 +1,18 @@
 document.getElementById("main-verMas-1").addEventListener("click", dropdown);
 document.getElementById("button-menu-header").addEventListener("click", menuFixed);
-document.getElementById("languages1").addEventListener("change", scrollLanguajes);
-document.getElementById("languages2").addEventListener("change", scrollLanguajes);
 document.getElementById("languages3").addEventListener("change", scrollLanguajes);
 document.getElementById("languages4").addEventListener("change", scrollLanguajes);
 
 
-var languageImg = document.getElementById("img-languaje");
 var languageImg2 = document.getElementById("img-languaje2");
 var languageImg3 = document.getElementById("img-languaje3");
-if (document.getElementById("languages1").value == 'es') {
-    languageImg.src = "img/spanish.svg";
+if (document.getElementById("languages3").value == 'es') {
     languageImg2.src = "img/spanish.svg";
     languageImg3.src = "img/spanish.svg";
-} else if (document.getElementById("languages1").value == 'en') {
-    languageImg.src = "img/english.svg";
+} else if (document.getElementById("languages3").value == 'en') {
     languageImg2.src = "img/english.svg";
     languageImg3.src = "img/english.svg";
-} else if (document.getElementById("languages1").value == 'pt') {
-    languageImg.src = "img/portugues.svg";
+} else if (document.getElementById("languages3").value == 'pt') {
     languageImg2.src = "img/portugues.svg";
     languageImg3.src = "img/portugues.svg";
 }
@@ -49,7 +43,7 @@ function dropdown() {
     var p2 = document.querySelector("#main-p-en-nuestra-orilla");
     var p3 = document.querySelector("#main-p-el-house-espacio-podemos");
     var arrow = document.getElementById("arrow-ver-mas");
-    var languages = document.getElementById("languages1").value;
+    var languages = document.getElementById("languages3").value;
     if (p1.classList.contains("pNone")) {
         p1.classList.remove("pNone");
         p1.classList.add("pVisible");
@@ -86,19 +80,15 @@ function dropdown() {
 }
 
 function scrollLanguajes() {
-    var languageImg = document.getElementById("img-languaje");
     var languageImg2 = document.getElementById("img-languaje2");
     var languageImg3 = document.getElementById("img-languaje3");
     if (this.value == 'es') {
-        languageImg.src = "img/spanish.svg";
         languageImg2.src = "img/spanish.svg";
         languageImg3.src = "img/spanish.svg";
     } else if (this.value == 'en') {
-        languageImg.src = "img/english.svg";
         languageImg2.src = "img/english.svg";
         languageImg3.src = "img/english.svg";
     } else if (this.value == 'pt') {
-        languageImg.src = "img/portugues.svg";
         languageImg2.src = "img/portugues.svg";
         languageImg3.src = "img/portugues.svg";
     }

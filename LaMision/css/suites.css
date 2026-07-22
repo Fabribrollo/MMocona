@@ -32,6 +32,7 @@ header .navbar {
 }
 
 .img-header {
+    width: 100%;
     max-width: 100%;
 }
 
@@ -63,6 +64,12 @@ header .navbar {
 
 .img-master-suite {
     width: 100%;
+}
+
+.img-promocion {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .row-img-master-suite {
@@ -167,6 +174,10 @@ input[type='date']::-webkit-calendar-picker-indicator {
 
 .rowGranSuite {
     padding-bottom: 45px;
+}
+
+.rowPromocion {
+    padding-bottom: 0;
 }
 
 .sectionSuites {
@@ -297,6 +308,9 @@ input[type='date']::-webkit-calendar-picker-indicator {
         margin-bottom: 0px;
     }
 
+    .img-promocion {
+        width: 100%;
+    }
 
 }
 

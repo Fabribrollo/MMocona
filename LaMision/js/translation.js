@@ -672,6 +672,14 @@
         }
     },
     {
+        "id": "Promociones",
+        "langs": {
+            "es": "Promociones",
+            "en": "Promotions",
+            "pt": "Promoções"
+        }
+    },
+    {
         "id": "main-p-excursion-4x4",
         "langs": {
             "es": "Esta excursión se realiza en vehículos 4x4, partiendo desde La Misión con destino a la reserva de Biosfera Yaboty. Luego de un deslumbrante recorrido por parte de la selva misionera, llegaremos al mirador, punto panorámico, donde luego de contemplar miles de hectáreas de selva virgen y donde es posible divisar variadas especies de flora y fauna.",
@@ -1718,6 +1726,86 @@
             "es": "Se encuentra al lado del Lodge la Misión Moconá, por un convenio el mismo usa las mismas instalaciones, osea que si te alojas en los Domos podes disfrutar del mejor complejo de los Saltos del Moconá, 3 piletas, house para desayunar, almorzar, merendar y cenar.",
             "en": "It is located next to the Lodge La Misión Moconá; through an agreement it uses the same facilities, meaning that if you stay in the Domes you can enjoy the best complex of the Saltos del Moconá, 3 pools, and the house for breakfast, lunch, afternoon tea and dinner.",
             "pt": "Está localizado ao lado do Lodge La Misión Moconá; por um convênio utiliza as mesmas instalações, ou seja, se você se hospedar nos Domos pode desfrutar do melhor complexo dos Saltos do Moconá, 3 piscinas, e a casa para café da manhã, almoço, lanche da tarde e jantar."
+        }
+    },
+    {
+        "id": "main-promocion-titulo-1",
+        "langs": {
+            "es": "Garantía de mejor precio",
+            "en": "Best price guarantee",
+            "pt": "Garantia de melhor preço"
+        }
+    },
+    {
+        "id": "main-p-promocion-1",
+        "langs": {
+            "es": "Igualamos la tarifa más barata de otra web.",
+            "en": "We match the cheapest rate found on another website.",
+            "pt": "Igualamos a tarifa mais barata de outro site."
+        }
+    },
+    {
+        "id": "main-promocion-titulo-2",
+        "langs": {
+            "es": "5% de descuento",
+            "en": "5% discount",
+            "pt": "5% de desconto"
+        }
+    },
+    {
+        "id": "main-p-promocion-2",
+        "langs": {
+            "es": "Pagando por transferencia.",
+            "en": "Paying by bank transfer.",
+            "pt": "Pagando por transferência."
+        }
+    },
+    {
+        "id": "main-promocion-titulo-3",
+        "langs": {
+            "es": "Actividades Incluidas",
+            "en": "Included Activities",
+            "pt": "Atividades Incluídas"
+        }
+    },
+    {
+        "id": "main-p-promocion-3",
+        "langs": {
+            "es": "En estadías de más de 4 noches, te regalamos una de las siguientes actividades: Safari 4x4 / Floating por el Río Uruguay / Visita al Salto Paraíso.",
+            "en": "On stays of more than 4 nights, we give you one of the following activities for free: 4x4 Safari / Floating on the Uruguay River / Visit to Salto Paraíso.",
+            "pt": "Em estadias de mais de 4 noites, presenteamos você com uma das seguintes atividades: Safari 4x4 / Floating pelo Rio Uruguai / Visita ao Salto Paraíso."
+        }
+    },
+    {
+        "id": "main-promocion-titulo-4",
+        "langs": {
+            "es": "Bonificación del 20%",
+            "en": "20% bonus",
+            "pt": "Bonificação de 20%"
+        }
+    },
+    {
+        "id": "main-p-promocion-4",
+        "langs": {
+            "es": "Si los Saltos del Moconá no se ven te bonificamos un 20% de tu próxima estadía.",
+            "en": "If the Saltos del Moconá are not visible, we give you a 20% bonus toward your next stay.",
+            "pt": "Se os Saltos do Moconá não estiverem visíveis, você ganha 20% de bônus na sua próxima estadia."
+        }
+    },
+    {
+        "id": "main-promocion-titulo-5",
+        "langs": {
+            "es": "Clases de Yoga",
+            "en": "Yoga classes",
+            "pt": "Aulas de Yoga"
+        }
+    },
+    {
+        "id": "main-p-promocion-5",
+        "langs": {
+            "es": "(Próximamente)",
+            "en": "(Coming soon)",
+            "pt": "(Em breve)"
         }
     }
 

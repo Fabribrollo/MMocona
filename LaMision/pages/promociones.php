@@ -17,7 +17,7 @@
     include '../includes/header.php';
     $title = "Promociones";
     $contenidoHeader = "";
-    $rutaImagen = "'../img/excursionesHeader.webp'";
+    $rutaImagen = "'../img/promociones.webp'";
     $classFlor = 'img-absolute-header-excursiones';
     headerPrint($title, $contenidoHeader, $rutaImagen, $classFlor);
     ?>
@@ -25,34 +25,12 @@
         <section class="container">
             <div class="row">
                 <div class="col-12 col-lg-7 col-with-border-bottom">
-                    <h3 class="h3TitleSection" id="main-promocion-titulo-1"></h3>
-                    <p class="p-suites" id="main-p-promocion-1"></p>
+                    <h3 class="h3TitleSection" id="main-promocion-titulo-1">Garantía de mejor precio</h3>
+                    <p class="p-suites" id="main-p-promocion-1">Igualamos la tarifa más barata de otra web.</p>
                     <div class="container-fluid">
-                        <div class="row">
+                        <div class="row row-img-master-suite">
                             <div class="col-12">
-                                <div class="item-equipamiento"><img src="../img/recorrido.svg" class="img-equipamiento"><span class="p-suites"></span><span class="p-bold-excursiones"></span>
-                                </div>
-                                <div class="item-equipamiento"><img src="../img/duracion.svg" class="img-equipamiento"><span class="p-suites"></span><span class="p-bold-excursiones"></span>
-                                </div>
-                                <div class="item-equipamiento"><img src="../img/transporte.svg" class="img-equipamiento"><span class="p-suites"></span><span class="p-bold-excursiones"></span></div>
-                            </div>
-                        </div>
-                        <div class="row row-img-master-suite desktop767">
-                            <div class="col-12">
-                                <div class="splide" id="splidePromocion1Div" aria-label="Splide Basic">
-                                    <div class="splide__track">
-                                        <div class="splide__list" id="splidePromocion1">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row row-img-master-suite mobile767">
-                            <div class="col-12">
-                                <div id="carouselPromocion1" class="carousel slide">
-                                    <div class="carousel-inner">
-                                    </div>
-                                </div>
+                                <img src="../img/promocion1.webp" class="img-promocion" alt="Garantía de mejor precio">
                             </div>
                         </div>
                         <hr class="separador-section" />
@@ -63,27 +41,56 @@
                 formPrint();
                 ?>
             </div>
-            <div class="row rowGranSuite">
+            <div class="row rowGranSuite rowPromocion">
                 <div class="col-12 col-lg-7">
-                    <h3 class="h3TitleSection" id="main-promocion-titulo-2"></h3>
-                    <p class="p-suites" id="main-p-promocion-2"></p>
+                    <h3 class="h3TitleSection" id="main-promocion-titulo-2">5% de descuento</h3>
+                    <p class="p-suites" id="main-p-promocion-2">Pagando por transferencia.</p>
                     <div class="container-fluid">
-                        <div class="row row-img-master-suite desktop767">
+                        <div class="row row-img-master-suite">
                             <div class="col-12">
-                                <div class="splide" id="splidePromocion2Div" aria-label="Splide Basic">
-                                    <div class="splide__track">
-                                        <div class="splide__list" id="splidePromocion2">
-                                        </div>
-                                    </div>
-                                </div>
+                                <img src="../img/promocion2.webp" class="img-promocion" alt="5% de descuento">
                             </div>
                         </div>
-                        <div class="row row-img-master-suite mobile767">
+                        <hr class="separador-section" />
+                    </div>
+                </div>
+            </div>
+            <div class="row rowGranSuite rowPromocion">
+                <div class="col-12 col-lg-7">
+                    <h3 class="h3TitleSection" id="main-promocion-titulo-3">Actividades Incluidas</h3>
+                    <p class="p-suites" id="main-p-promocion-3">En estadías de más de 4 noches, te regalamos una de las siguientes actividades: Safari 4x4 / Floating por el Río Uruguay / Visita al Salto Paraíso.</p>
+                    <div class="container-fluid">
+                        <div class="row row-img-master-suite">
                             <div class="col-12">
-                                <div id="carouselPromocion2" class="carousel slide">
-                                    <div class="carousel-inner">
-                                    </div>
-                                </div>
+                                <img src="../img/promocion3.webp" class="img-promocion" alt="Actividades Incluidas">
+                            </div>
+                        </div>
+                        <hr class="separador-section" />
+                    </div>
+                </div>
+            </div>
+            <div class="row rowGranSuite rowPromocion">
+                <div class="col-12 col-lg-7">
+                    <h3 class="h3TitleSection" id="main-promocion-titulo-4">Bonificación del 20%</h3>
+                    <p class="p-suites" id="main-p-promocion-4">Si los Saltos del Moconá no se ven te bonificamos un 20% de tu próxima estadía.</p>
+                    <div class="container-fluid">
+                        <div class="row row-img-master-suite">
+                            <div class="col-12">
+                                <img src="../img/promocion4.webp" class="img-promocion" alt="Bonificación del 20%">
+                            </div>
+                        </div>
+                        <hr class="separador-section" />
+                    </div>
+                </div>
+            </div>
+            <div class="row rowGranSuite rowPromocion">
+                <div class="col-12 col-lg-7">
+                    <h3 class="h3TitleSection" id="main-promocion-titulo-5">Clases de Yoga</h3>
+                    <p class="p-suites" id="main-p-promocion-5">(Próximamente)</p>
+                    <div class="container-fluid">
+                        <div class="row row-img-master-suite">
+                            <div class="col-12">
+                                <img src="../img/promocion5.webp" class="img-promocion" alt="Clases de Yoga">
                             </div>
                         </div>
                         <hr class="separador-section" />
